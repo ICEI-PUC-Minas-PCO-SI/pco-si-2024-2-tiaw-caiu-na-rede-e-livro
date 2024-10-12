@@ -1,25 +1,26 @@
-# Nome do projeto
+# Caiu na Rede, é Livro!
 
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações Web`
 
-`Xº semestre/ANO`
+`1º semestre/2024`
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+O grupo irá desenvolver um site de indicações de livros para promover a valorização da literatura.
+
+Em diversas ocasiões, as pessoas abandonam a leitura por não acharem livros que gostem e, com base nisso, o site oferecerá um filtro específico para personalizar as opções de livros para os usuários que buscam indicações neste.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Anna Carolina Vasconcelos Viana
+* Beatriz Freitas Coura Silva
+* João Vitor Silva Barbosa
+* Lucas Sérgio Benjamim de Medeiros
+* Renzzo Silva Rocha
 
 ## Professor
 
-* Nome completo do(a) professor(a)
+* Amália Soares Vieira de Vasconcelos
 
 ## Instruções de utilização
 

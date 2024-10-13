@@ -1,10 +1,13 @@
 # Caiu na Rede, é Livro!
 
+<img src="src/public/assets/images/Logo - Caiu na rede, é Livro!.jpg" width="200px">
+
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações Web`
 
 `2º semestre/2024`
+
 
 O grupo irá desenvolver um site de indicações de livros para promover a valorização da literatura.
 

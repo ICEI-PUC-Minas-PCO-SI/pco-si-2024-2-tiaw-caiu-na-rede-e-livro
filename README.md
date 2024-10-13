@@ -8,10 +8,11 @@
 
 `2º semestre/2024`
 
+O grupo desenvolverá um site para incentivar a leitura e valorizar a literatura, oferecendo recomendações de livros personalizadas. 
+Muitas pessoas abandonam a leitura por não encontrarem obras que se ajustem aos seus interesses, e nosso objetivo é resolver esse problema, tornando mais fácil para os leitores descobrirem novos livros que realmente gostem.
 
-O grupo irá desenvolver um site de indicações de livros para promover a valorização da literatura.
-
-Em diversas ocasiões, as pessoas abandonam a leitura por não acharem livros que gostem e, com base nisso, o site oferecerá um filtro específico para personalizar as opções de livros para os usuários que buscam indicações neste.
+Com um sistema de filtros personalizados, o site permitirá que cada usuário selecione suas preferências e receba sugestões mais precisas. 
+Dessa forma, queremos não apenas facilitar a escolha de livros, mas também estimular o prazer pela leitura, conectando os leitores às obras que mais combinam com seu estilo.
 
 ## Integrantes
 

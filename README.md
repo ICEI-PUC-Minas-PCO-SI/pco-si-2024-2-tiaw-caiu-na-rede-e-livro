@@ -4,7 +4,7 @@
 
 `DISCIPLINA: Trabalho Interdisciplinar Aplicações Web`
 
-`1º semestre/2024`
+`2º semestre/2024`
 
 O grupo irá desenvolver um site de indicações de livros para promover a valorização da literatura.
 

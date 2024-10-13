@@ -4,7 +4,7 @@
 
 `CURSO: Sistemas de Informação`
 
-`DISCIPLINA: Trabalho Interdisciplinar Aplicações Web`
+`DISCIPLINA: Trabalho Interdisciplinar: Aplicações Web`
 
 `2º semestre/2024`
 

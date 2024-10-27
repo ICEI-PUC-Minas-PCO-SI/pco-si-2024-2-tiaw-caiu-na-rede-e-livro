@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Carrosel Caiu na rede, é livro!</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="slide-wrapper" data-slide="wrapper">
+            <button class="slide-nav-button slide-nav-previous fas fa-chevron-left"
+                data-slide="nav-previous-button"></button>
+            <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+            <div class="slide-list" data-slide="list">
+                <div class="slide-item" data-slide="item" data-index="0">
+                    <div class="slide-content">
+                        <img class="slide-image" src="slider1.jpg" alt="Assassin's Creed" />
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="1">
+                    <div class="slide-content">
+                        <a href="ultimosLancamentos.html" alt="ultimos-lancamentos">
+                            <img class="slide-image" src="slider2.jpg" alt="Fortnite" />
+                        </a>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="2">
+                    <div class="slide-content">
+                        <a href="emAlta.html" alt="em-Alta">
+                            <img class="slide-image" src="slider3.jpg" alt="Freefire" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-controls" data-slide="controls-wrapper">
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+    <script>
+        initSlider({
+            autoPlay: true,
+            startAtIndex: 0,
+            timeInterval: 3000
+        })
+    </script>
+</body>
+
+</html>

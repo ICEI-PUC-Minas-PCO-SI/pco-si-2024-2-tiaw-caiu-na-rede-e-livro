@@ -6,37 +6,51 @@
 
 ## Etapa de entendimento
 
-**✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
+> * **Matriz CSD e Mapa de Stakeholders**:
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesta etapa, é necessário aplicar a metodologia de Design Thinking para compreender de forma mais profunda o problema a ser abordado. Durante esse processo, devem ser elaborados os seguintes elementos:
->
-> * **Matriz CSD**:  também conhecida como Matriz de Alinhamento, trata-se de uma ferramenta utilizada no Design Thinking para organizar informações, facilitando a tomada de decisões e a solução de problemas;
-> * **Mapa de stakeholders**: ferramenta que permite identificar e entender o grupo de pessoas e entidades que devem ser analisados e consultados para obter uma visão mais ampla do problema;
-> * **Entrevistas qualitativas**: uma série de entrevistas qualitativas a fim de validar suposições e esclarecer dúvidas junto aos principais envolvidos;
-> * **Highlights de pesquisa**: um compilado das informações levantadas durante as entrevistas realizadas.
+![Matriz csd Mapa de Stakeholders](images/matriz-csd-e-mapa-de-stakeholders.jpg)
 
-> **Links úteis**:
-> - [Mapa de stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
+
+> * **Entrevistas qualitativas**:
+
+![Entrevista qualitiva 1](images/entrevista-qualitativa-1.jpg)
+
+![Entrevista qualitiva 2](images/entrevista-qualitativa-2.jpg)
+
+![Entrevista qualitiva 3](images/entrevista-qualitativa-3.jpg)
+
+![Entrevista qualitiva 4](images/entrevista-qualitativa-4.jpg)
+
+![Entrevista qualitiva 5](images/entrevista-qualitativa-5.jpg)
+
+![Entrevista qualitiva 6](images/entrevista-qualitativa-6.jpg)
+
+
+> * **Highlights de pesquisa**: 
+
+![Highlights de Pesquisa](images/highlights-de-pesquisa.jpg)
+
 
 ## Etapa de definição
 
-### Personas
+> * **Personas e Mapas de Empatia**:
+![Persona Isaac](images/persona-isaac.jpg)
+![Mapa de empatia Isaac](images/mapa-de-empatia-isaac.jpg)
 
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
+![Persona Marcio](images/persona-marcio.jpg)
+![Mapa de empatia Marcio](images/mapa-de-empatia-marcio.jpg)
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Deve-se relacionar as personas identificadas no projeto, juntamente com os respectivos mapas de empatia. É importante enumerar e descrever de maneira precisa e personalizada todos os principais envolvidos na solução pretendida.
+![Persona Clara](images/persona-clara.jpg)
+![Mapa de empatia Clara](images/mapa-de-empatia-clara.jpg)
+
+![Persona Mariana](images/persona-mariana.jpg)
+![Mapa de empatia Mariana](images/mapa-de-empatia-mariana.jpg)
+
+![Persona Ana Julia](images/persona-ana-julia.jpg)
+![Mapa de empatia Ana Julia](images/mapa-de-empatia-ana-julia.jpg)
+
+![Persona Guilherme](images/persona-guilherme.jpg)
+![Mapa de empatia Guilherme](images/mapa-de-empatia-guilherme.jpg)
 
 
-![Exemplo de persona](images/exemplo-persona.png)
 
-
-> **Links úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)

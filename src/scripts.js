@@ -43,7 +43,7 @@ function exibirLivros(livros) {
         const imagemCapa = livro.cover_i ? `https://covers.openlibrary.org/b/id/${livro.cover_i}-M.jpg` : 'default-cover.jpg';
 
         
-        // No script.js, dentro da função exibirLivros
+        
 bookItem.innerHTML = `
 <a href="livro.html?id=${livro.key}" class="book-link">
     <img src="${imagemCapa}" alt="Capa do livro">
@@ -54,12 +54,60 @@ bookItem.innerHTML = `
     </div>
 </a>
 `;
+        
+// Armazenar o livro visualizado
+        bookItem.addEventListener('click', () => salvarLivroVisualizado(livro));
 
 
         bookList.appendChild(bookItem);
     });
 }
 
+// Salvar o livro visualizado no localStorage
+function salvarLivroVisualizado(livro) {
+    const livrosVisualizados = JSON.parse(localStorage.getItem('recentlyViewedBooks')) || [];
+
+    
+    if (!livrosVisualizados.some(l => l.key === livro.key)) {
+        livrosVisualizados.unshift({
+            key: livro.key,
+            title: livro.title,
+            author: livro.author_name ? livro.author_name.join(', ') : 'Desconhecido',
+            cover: livro.cover_i ? `https://covers.openlibrary.org/b/id/${livro.cover_i}-M.jpg` : 'default-cover.jpg'
+        });
+
+        // Mantém apenas os 5 livros mais recentes
+        if (livrosVisualizados.length > 5) {
+            livrosVisualizados.pop();
+        }
+
+        localStorage.setItem('recentlyViewedBooks', JSON.stringify(livrosVisualizados));
+        exibirLivrosVisualizados();
+    }
+}
+
+// Exibe os livros visualizados recentemente
+function exibirLivrosVisualizados() {
+    const recentlyViewedContainer = document.getElementById('recently-viewed');
+    const livrosVisualizados = JSON.parse(localStorage.getItem('recentlyViewedBooks')) || [];
+    
+    recentlyViewedContainer.innerHTML = '';
+
+    livrosVisualizados.forEach(livro => {
+        const bookItem = document.createElement('div');
+        bookItem.className = 'book-item';
+
+        bookItem.innerHTML = `
+            <img src="${livro.cover}" alt="Capa do livro">
+            <div>
+                <h3>${livro.title}</h3>
+                <p>Autor: ${livro.author}</p>
+            </div>
+        `;
+
+        recentlyViewedContainer.appendChild(bookItem);
+    });
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     const genres = ['Ficção', 'Fantasia', 'Terror', 'Romance', 'História'];
@@ -71,4 +119,6 @@ document.addEventListener('DOMContentLoaded', () => {
         option.textContent = genero;
         genreFilter.appendChild(option);
     });
+    // Exibe livros visualizados recentemente ao carregar a página
+    exibirLivrosVisualizados();
 });

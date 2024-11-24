@@ -78,3 +78,63 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// FAVORITOS
+
+// função para adicionar livro aos favoritos
+function adicionarAosFavoritos(livro) {
+    const favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+
+    // verifica se o livro já está nos favoritos
+    const jaFavoritado = favoritos.some(f => f.titulo === livro.title);
+    if (!jaFavoritado) {
+        const novoFavorito = {
+            key: livro.key,
+            titulo: livro.title,
+            autor: livro.author_name ? livro.author_name.join(', ') : 'Desconhecido',
+            capa: livro.cover_i ? `https://covers.openlibrary.org/b/id/${livro.cover_i}-M.jpg` : 'default-cover.jpg',
+            ano: livro.first_publish_year || 'Desconhecido'
+        };
+        favoritos.push(novoFavorito);
+
+        localStorage.setItem('favoritos', JSON.stringify(favoritos));
+
+        alert(`${livro.title} foi adicionado aos favoritos!`);
+    } else {
+        alert(`${livro.title} já está nos favoritos!`);
+    }
+}
+
+// exibir os livros favoritos
+function exibirFavoritos() {
+    const containerFavoritos = document.getElementById('container-favoritos');
+    const favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+    containerFavoritos.innerHTML = '';
+
+    // loop para cada livro favoritado
+favoritos.forEach(livro => {
+        const elementoLivro = document.createElement('div');
+        elementoLivro.innerHTML = `
+            <img src="${livro.capa}" alt="Capa do livro">
+            <h3>${livro.titulo}</h3>
+            <p>Autor: ${livro.autor}</p>
+            <p>Ano: ${livro.first_publish_year || 'Desconhecido'}</p>
+            <button onclick="removerDosFavoritos('${livro.key}')">Remover dos Favoritos</button>
+        `;
+        containerFavoritos.appendChild(elementoLivro);
+    });
+}
+
+// remover livro dos favoritos
+function removerDosFavoritos(key) {
+    let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+    favoritos = favoritos.filter(livro => livro.key !== key);
+    localStorage.setItem('favoritos', JSON.stringify(favoritos));
+    alert("Livro removido dos favoritos.");
+    exibirFavoritos(); // atualiza a lista
+}
+
+function voltarParaPesquisa() {
+    window.location.href = 'addfavoritos.html';
+}
+document.addEventListener('DOMContentLoaded', exibirFavoritos);
+

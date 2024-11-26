@@ -10,6 +10,11 @@
 # Fonte
 ![3](https://github.com/user-attachments/assets/7582a9c7-5494-4d5e-b84c-2e531001da5b)
 
+# Telas do Site
+![Captura de Tela (141)](https://github.com/user-attachments/assets/e2c1e30c-c09c-45b2-90ec-22fca768db9d)
+![Captura de Tela (142)](https://github.com/user-attachments/assets/864fec63-4b4e-4c9e-8a3b-fc7616105594)
+
+
 
 
 

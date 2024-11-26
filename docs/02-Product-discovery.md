@@ -52,5 +52,6 @@
 ![Persona Guilherme](images/persona-guilherme.jpg)
 ![Mapa de empatia Guilherme](images/mapa-de-empatia-guilherme.jpg)
 
+...
 
 

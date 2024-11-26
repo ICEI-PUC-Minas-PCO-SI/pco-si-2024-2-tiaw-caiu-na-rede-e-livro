@@ -4,3 +4,8 @@
 # Logo
 ![Logo - Fundo Transparente](https://github.com/user-attachments/assets/43d4f1a7-9e5b-422c-a026-d933493e2067)
 
+# Paleta de Cores
+![2](https://github.com/user-attachments/assets/9166b73c-c657-4961-8a8e-c8b711ca7bdb)
+
+
+

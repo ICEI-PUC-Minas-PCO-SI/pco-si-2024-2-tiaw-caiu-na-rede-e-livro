@@ -16,7 +16,7 @@ Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapea
 
 **✳️✳️✳️ COLOQUE AQUI O USER FLOW ✳️✳️✳️**
 
-![Exemplo de fluxo de telas](images/exemplo-userflow.png)
+![Exemplo de fluxo de telas](images/userflow.png)
 
 > **Links úteis**:
 > - [User flow: o quê é e como fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)

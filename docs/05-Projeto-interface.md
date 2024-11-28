@@ -1,5 +1,4 @@
-
-# Projeto de interface
+# Projeto de Interface
 
 <span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> product design</a></span>
 
@@ -7,7 +6,9 @@
 
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados na parte de <a href="03-Product-design.md"> product design</a></span>.
 
- ## User flow
+---
+
+## User Flow
 
 Tela de login/cadastro:  Tela que possibilita o cadastramento e login de usuários. 
 
@@ -23,15 +24,33 @@ Tela de filtros por ano de lançamento: Tela que possibilita a pesquisa de livro
 
 ![Exemplo de fluxo de telas](images/userflow.png)
 
+---
+
 ## Wireframes
 
 ![Exemplo de wireframe](images/cadastro.png)
+<br>
+<br>
+<br>
 ![Exemplo de wireframe](images/home.png)
+<br>
+<br>
+<br>
 ![Exemplo de wireframe](images/filtro-generos.png)
+<br>
+<br>
+<br>
 ![Exemplo de wireframe](images/livros-baseado-filtro.png)
+<br>
+<br>
+<br>
 ![Exemplo de wireframe](images/comentarios.png)
+<br>
+<br>
+<br>
 ![Exemplo de wireframe](images/filtros-ano-de-lancamento.png)
 
+---
 
 ### Protótipo Interativo
 

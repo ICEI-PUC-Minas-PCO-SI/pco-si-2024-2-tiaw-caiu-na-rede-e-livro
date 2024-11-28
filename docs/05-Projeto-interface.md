@@ -25,11 +25,6 @@ Tela de filtros por ano de lançamento: Tela que possibilita a pesquisa de livro
 
 ## Wireframes
 
-
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
-
-Descrição para a tela XPTO
-
 ![Exemplo de wireframe](images/cadastro.png)
 ![Exemplo de wireframe](images/home.png)
 ![Exemplo de wireframe](images/filtro-generos.png)
@@ -40,10 +35,4 @@ Descrição para a tela XPTO
 
 ### Protótipo Interativo
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto das interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse utilizando o software finalizado. Utilize as mesmas ferramentas de criação de wireframes para a montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
-
-**✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
-
-✅ [Protótipo interativo](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
+https://www.figma.com/design/A5oMfq14ZuLkrAkCgpLtBv/Caiu-na-rede%2C-%C3%A9-livro!?node-id=97-280&node-type=canvas&t=ewguO3tT2k66SFXC-0

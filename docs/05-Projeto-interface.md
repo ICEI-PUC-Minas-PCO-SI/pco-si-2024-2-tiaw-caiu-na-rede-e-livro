@@ -52,6 +52,6 @@ Tela de filtros por ano de lançamento: Tela que possibilita a pesquisa de livro
 
 ---
 
-### Protótipo Interativo
+## Protótipo Interativo
 
 https://www.figma.com/design/A5oMfq14ZuLkrAkCgpLtBv/Caiu-na-rede%2C-%C3%A9-livro!?node-id=97-280&node-type=canvas&t=ewguO3tT2k66SFXC-0

@@ -9,12 +9,17 @@
 
  ## User flow
 
+Tela de login/cadastro:  Tela que possibilita o cadastramento e login de usuários. 
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+Tela home: Tela Principal do site que conta com barra de pesquisa. 
 
-Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapear todo o fluxo de navegação do usuário na aplicação. Essa técnica serve para alinhar os caminhos e as possíveis ações que o usuário pode realizar junto com os membros da equipe.
+Tela de filtros por gênero:  Tela que possibilita a pesquisa de livros através de um filtro de gêneros.  
 
-**✳️✳️✳️ COLOQUE AQUI O USER FLOW ✳️✳️✳️**
+Tela de livros: Tela que exibe o resultado da pesquisa, contando com algumas informações do livro. 
+
+Tela de comentarios: Tela que exibe as avaliações e comentários do usuário acerca do livro selecionado. 
+
+Tela de filtros por ano de lançamento: Tela que possibilita a pesquisa de livros através de um filtro de ano de lançamento. 
 
 ![Exemplo de fluxo de telas](images/userflow.png)
 

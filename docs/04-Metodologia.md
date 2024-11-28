@@ -5,6 +5,10 @@
 
 Descreva aqui a metodologia de trabalho do grupo para abordar o problema. Inclua definições sobre os ambientes de trabalho utilizados pela equipe para desenvolver o projeto. Isso abrange a relação dos ambientes utilizados, a estrutura para a gestão do código-fonte, além da definição do processo e das ferramentas por meio dos quais a equipe se organiza (gestão de equipes).
 
+A metodologia de trabalho do grupo para abordar o problema foram as seguintes:
+
+- Scrumban: scrumban é uma estrutura de gestão de projeto que ajuda as equipes a estruturar e gerenciar o trabalho por meio de um conjunto de valores, princípios e práticas. 
+
 ## Relação de ambientes de trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A relação dos ambientes com seus respectivos propósitos deverá ser apresentada em uma tabela que especifique e detalhe Ambiente, Plataforma e Link de Acesso. Defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.

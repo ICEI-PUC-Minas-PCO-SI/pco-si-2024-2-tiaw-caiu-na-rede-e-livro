@@ -25,26 +25,17 @@ Tela de filtros por ano de lançamento: Tela que possibilita a pesquisa de livro
 
 ## Wireframes
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
-
-São protótipos usados no design de interface para sugerir a estrutura de um site web e seu relacionamento entre suas páginas. Um wireframe web é uma ilustração que mostra o layout dos elementos fundamentais na interface.
-
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
 
 ##### TELA XPTO ⚠️ EXEMPLO ⚠️
 
 Descrição para a tela XPTO
 
-![Exemplo de wireframe](images/exemplo-wireframe.png)
-
- 
-> **Links úteis**:
-> - [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135)
-> - [Protótipos vs wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
+![Exemplo de wireframe](images/cadastro.png)
+![Exemplo de wireframe](images/home.png)
+![Exemplo de wireframe](images/filtro-generos.png)
+![Exemplo de wireframe](images/livros-baseado-filtro.png)
+![Exemplo de wireframe](images/comentarios.png)
+![Exemplo de wireframe](images/filtros-ano-de-lancamento.png)
 
 
 ### Protótipo Interativo

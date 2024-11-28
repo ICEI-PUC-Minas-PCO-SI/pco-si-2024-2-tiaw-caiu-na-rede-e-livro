@@ -10,10 +10,17 @@ A inexistência de personalização e recomendação correta tem levado as pesso
 
 O projeto tem como objetivo a criação de uma plataforma de indicação de livros personalizada, recomendando livros de maneira única e que facilite aos usuários encontrarem obras do interesse e do gosto literário. Com a implementação da plataforma, o site poderá contribuir para o aumento do hábito de leitura, tornando a valorização de diversos gêneros e temas mais fortes.
 
-Objetivos específicos:
-- Implementar um sistema de filtros personalizados: Desenvolver um mecanismo de busca e filtragem no site que permita aos usuários selecionar critérios como gênero literário, autor, nome da obra, entre outros. Esse sistema tem como objetivo tornar a experiência de busca mais intuitiva e alinhada aos gostos individuais de cada leitor.
-- Criar uma aba de favoritos para o usuário: Incluir uma funcionalidade onde os leitores possam registrar seus livros preferidos, organizando suas escolhas e facilitando o acesso às obras que mais gostaram.
-- Comunidade literária ativa: Oferecer funcionalidades que possibilitem interação entre os leitores, como fóruns de discussão. Dessa forma, o site se tornará um espaço dinâmico onde os usuários podem compartilhar experiências de leitura, criando um ambiente acolhedor e inspirador para o hábito de ler.
+Nossos objetivos principais:
+
+- Implementar um sistema de filtros personalizados: desenvolver um mecanismo de busca e filtragem no site que permita aos usuários selecionar critérios como gênero literário, autor, nome da obra, entre outros. Esse sistema tem como objetivo tornar a experiência de busca mais intuitiva e alinhada aos gostos individuais de cada leitor.
+
+<br>
+
+- Criar uma aba de favoritos para o usuário: incluir uma funcionalidade onde os leitores possam registrar seus livros preferidos, organizando suas escolhas e facilitando o acesso às obras que mais gostaram.
+
+<br>
+
+- Comunidade literária ativa: oferecer funcionalidades que possibilitem interação entre os leitores, como fóruns de discussão. Dessa forma, o site se tornará um espaço dinâmico onde os usuários podem compartilhar experiências de leitura, criando um ambiente acolhedor e inspirador para o hábito de ler.
  
 ## Justificativa
 
@@ -21,4 +28,4 @@ O projeto se justifica por ser necessário estimular o ato de se ler de forma tr
 
 ## Público-alvo
 
-O nosso público inclui pessoas que gostam de ler mais e de explorar novos gêneros literários, indo do debate sobre livros que jovens estudantes leem até adultos que desejam reacender o hábito de ler. Além dele, o site também pode ser uma fonte valiosa para professores, educadores e bibliotecários de todos os níveis procurando obras a recomendar a seus debates literários para diversificar e enriquecer a experiência de acesso à leitura.
+O nosso público-alvo inclui pessoas que gostam de ler mais e de explorar novos gêneros literários, indo do debate sobre livros que jovens estudantes leem até adultos que desejam reacender o hábito de ler. Além dele, o site também pode ser uma fonte valiosa para professores, educadores e bibliotecários de todos os níveis procurando obras a recomendar a seus debates literários para diversificar e enriquecer a experiência de acesso à leitura.

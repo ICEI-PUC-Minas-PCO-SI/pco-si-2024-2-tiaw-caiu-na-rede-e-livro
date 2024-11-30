@@ -74,7 +74,7 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Permite avaliar o livro.
 
-* **Estrutura de dados:** [Avaliação por Estrela](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Estrelas](#estrutura-de-dados---estrelas)
 * **Instruções de acesso:**
   * Clique no livro;
   * Avalie de 1 a 5 estrelas;
@@ -154,6 +154,18 @@ Contatos da aplicação
     "email": "Sincere@april.biz",
     "telefone": "1-770-736-8031",
     "website": "hildegard.org"
+  }
+  
+```
+##### Estrutura de dados - Estrelas
+
+```json
+  {
+    "Avaliação por estrela": [
+        {
+            "Estrela": "5"
+        }
+    ]
   }
   
 ```

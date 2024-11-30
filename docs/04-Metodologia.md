@@ -7,14 +7,6 @@ A metodologia de trabalho do grupo para abordar o problema foi a seguinte:
 
 - Scrumban: scrumban é uma estrutura de gestão de projeto que ajuda as equipes a estruturar e gerenciar o trabalho por meio de um conjunto de valores, princípios e práticas. Essa abordagem possui equipes auto-organizadas e multifuncionais, com papéis definidos
 
-## Relação de ambientes de trabalho
-
-Para ser construído a relação de ambientes de trabalho e alinhamento de detalhes, o grupo utilizou-se de plataformas cruciais para tal, sendo elas, o Github, o Miro e o Figma. A seguir, algumas das características destas:
-
-- Github: controle de Repositórios e gestão de projeto
-- Miro: documentação e design thinking
-- Figma: prototipação/UX & UI.
-
 ## Controle de versão
 
 O projeto segue a seguinte convenção para o nome de branches:
@@ -34,7 +26,7 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 ###  Divisão de papéis
 
-> A equipe utiliza o Scrumban como base para definição do processo de desenvolvimento. A seguir, irá ser apresentado a divisão dos papéis do grupo de acordo com esta metodologia:
+A equipe utiliza o Scrumban como base para definição do processo de desenvolvimento. A seguir, irá ser apresentado a divisão dos papéis do grupo de acordo com esta metodologia:
 
 - Scrum Master: Renzzo Rocha
 - Product Owner: João Barbosa
@@ -43,18 +35,20 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 ### Processo
 
-Coloque uma imagem da estrutura da ferramenta de controle de tarefas (Kanban) e o link do GitHub Projects.
- 
+**Link do Projeto:** https://github.com/orgs/ICEI-PUC-Minas-PCO-SI/projects/73
+
+ ![scrumban-board-github](https://github.com/user-attachments/assets/6b0802ac-3d14-4b3c-809f-fa2bbafe16e2)
+
 ### Ferramentas
 
-⚠️ EXEMPLO ⚠️ os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue:
 
 | Ambiente                            | Plataforma                         | Link de acesso                       |
 |-------------------------------------|------------------------------------|--------------------------------------|
-| Processo de Design Thinking         | Miro                               | https://....   ⚠️ EXEMPLO ⚠️        |
-| Repositório de código fonte         | GitHub                             | https://....   ⚠️ EXEMPLO ⚠️        |
-| Documentos do projeto               | GitHub                             | http://....    ⚠️ EXEMPLO ⚠️        |
-| Gerenciamento do projeto            | GitHub Projects                    | http://....    ⚠️ EXEMPLO ⚠️        |
-| Projeto de interface                | Figma                              | http://....    ⚠️ EXEMPLO ⚠️        |
-| Hospedagem                          | Vercel                             | http://....    ⚠️ EXEMPLO ⚠️        |
+| Processo de Design Thinking         | Miro                               | https://miro.com/app/board/uXjVKg-bwtk=/       |
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-2-tiaw-caiu-na-rede-e-livro/tree/main/src        |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-2-tiaw-caiu-na-rede-e-livro/tree/main/docs        |
+| Gerenciamento do projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PCO-SI/projects/73       |
+| Projeto de interface                | Figma                              | https://www.figma.com/design/A5oMfq14ZuLkrAkCgpLtBv/Caiu-na-rede%2C-%C3%A9-livro!?node-id=0-1&t=pd91TGKoBbnzUmLU-1      |
+| Hospedagem                          | Vercel                             |   |
  

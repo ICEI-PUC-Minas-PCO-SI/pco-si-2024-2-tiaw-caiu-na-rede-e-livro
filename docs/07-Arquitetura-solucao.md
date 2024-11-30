@@ -330,7 +330,7 @@ Esta seção apresenta os módulos e APIs utilizados na solução.
 
 **Fonts:**
 
-* Google Fonts - [https://fonts.googleapis.com/](https://fonts.googleapis.com/) 
+* Google Fonts - [https://fonts.googleapis.com](https://fonts.googleapis.com) 
 
 **Scripts:**
 

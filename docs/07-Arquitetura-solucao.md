@@ -169,7 +169,7 @@ Descrição das estruturas de dados utilizadas na solução com exemplos no form
         "description": "Um site de indicações de livros para promover a valorização da literatura!",
         "image": "assets/img/Imagem 02.png"
     }
-]
+  ]
   
 ```
 ##### Estrutura de dados - Carrossel

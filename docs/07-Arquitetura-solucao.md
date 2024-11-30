@@ -230,13 +230,19 @@ Descrição das estruturas de dados utilizadas na solução com exemplos no form
 
 ```json
   {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
+  "livrosNaoLidos": [
+    {
+      "titulo": "O Senhor dos Anéis",
+      "autor": "J.R.R. Tolkien",
+      "acao": "marcar como lido"
+    },
+    {
+      "titulo": "Dom Quixote",
+      "autor": "Miguel de Cervantes",
+      "acao": "marcar como lido"
+    }
+  ],
+  "livrosLidos": []
   }
   
 ```
@@ -244,13 +250,17 @@ Descrição das estruturas de dados utilizadas na solução com exemplos no form
 
 ```json
   {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
+    "favoritos": [
+    {
+      "id": "123",
+      "titulo": "O Senhor dos Anéis", "autor": "J.R.R. Tolkien", "gênero": "Fantasia"
+    }, 
+    {
+      "id": "456",
+      "titulo": "1984",
+      "autor": "George Orwell", "gênero": "Distopia"
+    } 
+    ]
   }
   
 ```

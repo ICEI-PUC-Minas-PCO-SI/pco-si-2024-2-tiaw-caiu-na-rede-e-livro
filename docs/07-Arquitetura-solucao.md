@@ -12,13 +12,13 @@ Esta seção apresenta as funcionalidades da solução.
 
 ##### Funcionalidade 1 - Cadastro 
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Permite o usuário criar uma conta no site.
 
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Cadastro](#estrutura-de-dados---cadastro)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
+  * Abra o site e efetue o cadastro;
+  * Informe seus dados corretamente;
+  * Registre e faça o login.
 * **Tela da funcionalidade**:
 
 ![Tela de funcionalidade](images/exemplo-funcionalidade.png)
@@ -26,7 +26,7 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Banner](#estrutura-de-dados---banner)
 * **Instruções de acesso:**
   * Abra o site e efetue o login;
   * Acesse o menu principal e escolha a opção "Cadastros";
@@ -38,7 +38,7 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Carrossel](#estrutura-de-dados---carrossel)
 * **Instruções de acesso:**
   * Abra o site e efetue o login;
   * Acesse o menu principal e escolha a opção "Cadastros";
@@ -50,7 +50,7 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Filtros](#estrutura-de-dados---filtros)
 * **Instruções de acesso:**
   * Abra o site e efetue o login;
   * Acesse o menu principal e escolha a opção "Cadastros";
@@ -62,7 +62,7 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Comentários](#estrutura-de-dados---comentários)
 * **Instruções de acesso:**
   * Abra o site e efetue o login;
   * Acesse o menu principal e escolha a opção "Cadastros";
@@ -86,7 +86,7 @@ Permite avaliar o livro.
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Histórico](#estrutura-de-dados---histórico)
 * **Instruções de acesso:**
   * Abra o site e efetue o login;
   * Acesse o menu principal e escolha a opção "Cadastros";
@@ -98,7 +98,7 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Favoritos](#estrutura-de-dados---favoritos)
 * **Instruções de acesso:**
   * Abra o site e efetue o login;
   * Acesse o menu principal e escolha a opção "Cadastros";
@@ -110,7 +110,7 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Recentemente](#estrutura-de-dados---recentemente)
 * **Instruções de acesso:**
   * Abra o site e efetue o login;
   * Acesse o menu principal e escolha a opção "Cadastros";
@@ -122,7 +122,7 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
-* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Estrutura de dados:** [Best](#estrutura-de-dados---best)
 * **Instruções de acesso:**
   * Abra o site e efetue o login;
   * Acesse o menu principal e escolha a opção "Cadastros";
@@ -141,9 +141,65 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.Info.
 
-##### Estrutura de dados - Contatos
+##### Estrutura de dados - Cadastro
 
-Contatos da aplicação
+```json
+  {
+    "Cadastro de Usuário": [
+    {
+       "Nome de Usuário": "luc4s",
+       "E-mail": "luc4s@gmail.com",
+       "Senha": "senha123",
+       "Confirmação de Senha": "senha123"
+    }
+    ]
+  }
+
+  
+```
+##### Estrutura de dados - Banner
+
+```json
+  {
+    "id": 1,
+    "nome": "Leanne Graham",
+    "cidade": "Belo Horizonte",
+    "categoria": "amigos",
+    "email": "Sincere@april.biz",
+    "telefone": "1-770-736-8031",
+    "website": "hildegard.org"
+  }
+  
+```
+##### Estrutura de dados - Carrossel
+
+```json
+  {
+    "id": 1,
+    "nome": "Leanne Graham",
+    "cidade": "Belo Horizonte",
+    "categoria": "amigos",
+    "email": "Sincere@april.biz",
+    "telefone": "1-770-736-8031",
+    "website": "hildegard.org"
+  }
+  
+```
+##### Estrutura de dados - Filtros
+
+```json
+  {
+    "id": 1,
+    "nome": "Leanne Graham",
+    "cidade": "Belo Horizonte",
+    "categoria": "amigos",
+    "email": "Sincere@april.biz",
+    "telefone": "1-770-736-8031",
+    "website": "hildegard.org"
+  }
+  
+```
+##### Estrutura de dados - Comentários
 
 ```json
   {
@@ -166,6 +222,62 @@ Contatos da aplicação
             "Estrela": "5"
         }
     ]
+  }
+  
+```
+##### Estrutura de dados - Histórico
+
+```json
+  {
+    "id": 1,
+    "nome": "Leanne Graham",
+    "cidade": "Belo Horizonte",
+    "categoria": "amigos",
+    "email": "Sincere@april.biz",
+    "telefone": "1-770-736-8031",
+    "website": "hildegard.org"
+  }
+  
+```
+##### Estrutura de dados - Favoritos
+
+```json
+  {
+    "id": 1,
+    "nome": "Leanne Graham",
+    "cidade": "Belo Horizonte",
+    "categoria": "amigos",
+    "email": "Sincere@april.biz",
+    "telefone": "1-770-736-8031",
+    "website": "hildegard.org"
+  }
+  
+```
+##### Estrutura de dados - Recentemente
+
+```json
+  {
+    "id": 1,
+    "nome": "Leanne Graham",
+    "cidade": "Belo Horizonte",
+    "categoria": "amigos",
+    "email": "Sincere@april.biz",
+    "telefone": "1-770-736-8031",
+    "website": "hildegard.org"
+  }
+  
+```
+##### Estrutura de dados - Best
+
+```json
+  {
+    "id": 1,
+    "nome": "Leanne Graham",
+    "cidade": "Belo Horizonte",
+    "categoria": "amigos",
+    "email": "Sincere@april.biz",
+    "telefone": "1-770-736-8031",
+    "website": "hildegard.org"
   }
   
 ```

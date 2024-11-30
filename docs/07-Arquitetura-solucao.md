@@ -33,7 +33,9 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
   * Em seguida, escolha a opção "Contatos".
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+![WhatsApp Image 2024-11-30 at 1 23 35 PM](https://github.com/user-attachments/assets/08505609-e9f6-4a32-a04b-3c7eff34cd0a)
+![WhatsApp Image 2024-11-30 at 1 23 35 PM (1)](https://github.com/user-attachments/assets/1fd1514f-ceb6-478f-a6b0-820218046b59)
+![WhatsApp Image 2024-11-30 at 1 24 23 PM](https://github.com/user-attachments/assets/ee8614e1-ae3c-407e-8cdd-bb2a6099cd0f)
 ##### Funcionalidade 3 - Carrossel
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
@@ -117,7 +119,7 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
   * Em seguida, escolha a opção "Contatos".
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+![WhatsApp Image 2024-11-30 at 1 21 45 PM](https://github.com/user-attachments/assets/7eac4f81-8674-411b-8a69-ab38a83d6772)
 ##### Funcionalidade 10 - Best Sellers
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
@@ -160,15 +162,18 @@ Descrição das estruturas de dados utilizadas na solução com exemplos no form
 ##### Estrutura de dados - Banner
 
 ```json
-  {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
+  [
+    {
+        "title": "Seja-Bem Vindo!",
+        "description": "Descubra as melhores resenhas e recomendações em um só lugar!",
+        "image": "assets/img/Imagem 01.png"
+    },
+    {
+        "title": "Caiu na Rede, é Livro!",
+        "description": "Um site de indicações de livros para promover a valorização da literatura!",
+        "image": "assets/img/Imagem 02.png"
+    }
+]
   
 ```
 ##### Estrutura de dados - Carrossel
@@ -257,14 +262,15 @@ Descrição das estruturas de dados utilizadas na solução com exemplos no form
 
 ```json
   {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
+    "VistoRecentemente":[
+     {
+     "key": "OL67890M",
+     "title": "É assim que acaba",
+     "author": "Colleen Hoover",
+     "cover": "https://covers.openlibrary.org/b/id/"
+     }
+     ]
+    }
   
 ```
 ##### Estrutura de dados - Best

@@ -16,7 +16,8 @@ Permite o usuário criar uma conta no site.
 
 * **Estrutura de dados:** [Cadastro](#estrutura-de-dados---cadastro)
 * **Instruções de acesso:**
-  * Abra o site;
+  * Abra o site e clique em login;
+  * No login, em "cadastre-se";
   * Informe seus dados corretamente;
   * Registre e faça o login.
 * **Tela da funcionalidade**:
@@ -24,13 +25,11 @@ Permite o usuário criar uma conta no site.
 ![Tela Cadastro CNREL](https://github.com/user-attachments/assets/f8521602-76ab-4f09-90e0-7096058fa260)
 ##### Funcionalidade 2 - Banner
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Apresenta informações nos cards.
 
 * **Estrutura de dados:** [Banner](#estrutura-de-dados---banner)
 * **Instruções de acesso:**
-  * Abra o site;
-  * Acesse o menu principal e escolha a opção "Cadastros;
-  * Em seguida, escolha a opção "Contatos".
+  * Abra o site e na Home, o banner será apresentado.
 * **Tela da funcionalidade**:
 
 ![WhatsApp Image 2024-11-30 at 1 23 35 PM](https://github.com/user-attachments/assets/08505609-e9f6-4a32-a04b-3c7eff34cd0a)
@@ -38,37 +37,33 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 ![WhatsApp Image 2024-11-30 at 1 24 23 PM](https://github.com/user-attachments/assets/ee8614e1-ae3c-407e-8cdd-bb2a6099cd0f)
 ##### Funcionalidade 3 - Carrossel
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Apresenta informações nos cards.
 
 * **Estrutura de dados:** [Carrossel](#estrutura-de-dados---carrossel)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
+  * Abra o site e na Home, o carrossel será apresentado;
 * **Tela da funcionalidade**:
 
 ![Tela de funcionalidade](images/exemplo-funcionalidade.png)
 ##### Funcionalidade 4 - Filtros
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Permite a pesquisa de livros.
 
 * **Estrutura de dados:** [Filtros](#estrutura-de-dados---filtros)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
+  * Abra o site;
+  * Na Home, na aba pesquisar, o usuário encontra os filtros.
 * **Tela da funcionalidade**:
 
 ![Tela de funcionalidade](images/exemplo-funcionalidade.png)
 ##### Funcionalidade 5 - Comentários
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Permite o usuário comentar sua opinião sobre o livro.
 
 * **Estrutura de dados:** [Comentários](#estrutura-de-dados---comentários)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
+  * Abra o site;
+  * Clique em um livro.
 * **Tela da funcionalidade**:
 
 ![Tela de funcionalidade](images/exemplo-funcionalidade.png)
@@ -78,57 +73,58 @@ Permite avaliar o livro.
 
 * **Estrutura de dados:** [Estrelas](#estrutura-de-dados---estrelas)
 * **Instruções de acesso:**
-  * Clique no livro;
-  * Avalie de 1 a 5 estrelas;
+  * Abra o site; 
+  * Clique em um livro;
 * **Tela da funcionalidade**:
 
 ![Captura de Tela (140)](https://github.com/user-attachments/assets/a27b767a-9ab0-4427-837d-8ca30bedf051)
 
 ##### Funcionalidade 7 - Histórico de Leitura
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Permite o usuário acompanhar os livros que leu e avaliou.
 
 * **Estrutura de dados:** [Histórico](#estrutura-de-dados---histórico)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
+  * Abra o site;
+  * Acesse um livro;
+  * Avalie;
+  * Em seguida, volte para Home.
 * **Tela da funcionalidade**:
 
 ![Tela de funcionalidade](images/exemplo-funcionalidade.png)
 ##### Funcionalidade 8 - Favoritos
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Adiciona os livros favoritos do usuário para uma lista.
 
 * **Estrutura de dados:** [Favoritos](#estrutura-de-dados---favoritos)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
+  * Abra o site;
+  * Acesse um livro;
+  * Clique em "Favoritar";
+  * Em seguida, volte para a Home.
 * **Tela da funcionalidade**:
 
 ![Tela de funcionalidade](images/exemplo-funcionalidade.png)
 ##### Funcionalidade 9 - Visto Recentemente
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Mostra ao usuário os livros que acessou recentemente.
 
 * **Estrutura de dados:** [Recentemente](#estrutura-de-dados---recentemente)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
+  * Abra o site;
+  * Acesse um livro;
+  * Em seguida, volte para Home.
 * **Tela da funcionalidade**:
 
 ![WhatsApp Image 2024-11-30 at 1 21 45 PM](https://github.com/user-attachments/assets/7eac4f81-8674-411b-8a69-ab38a83d6772)
 ##### Funcionalidade 10 - Best Sellers
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+Mostra ao usuário os livros mais vendidos.
 
 * **Estrutura de dados:** [Best](#estrutura-de-dados---best)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
-  * Em seguida, escolha a opção "Contatos".
+  * Abra o site;
+  * Na Home, apresentará os "best sellers".
 * **Tela da funcionalidade**:
 
 ![Tela de funcionalidade](images/exemplo-funcionalidade.png)

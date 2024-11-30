@@ -1,21 +1,5 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc.) utilizadas no desenvolvimento do trabalho.
+- BRASIL perde 4,6 milhões de leitores em quatro anos com queda puxada por mais ricos. Globo.com, 11 set. 2020. Disponível em: https://g1.globo.com/poparte/noticia/2020/09/11/brasil-perde-46-milhoes-de-leitores-em-quatro-anos-comqueda-puxada-por-mais-ricos.ghtml. Acesso em: 22 set. 2024.
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
-
-⚠️ EXEMPLO ⚠️
-
-- BENYON, David. **Interação humano-computador**. 2. ed. São Paulo: Pearson Prentice Hall, 2011.
-
-- CORMEN, Thomas H et al. **Algoritmos:** teoria e prática. 4. ed. Rio de Janeiro: GEN LTC, 2024.
- 
-- ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019.
-
-- RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial:** uma abordagem moderna. 4. ed. Rio de Janeiro, RJ: LTC, 2022.
-
-- SUTHERLAND, Jeffrey Victor; SUTHERLAND, J. J. **Scrum:** a arte de fazer o dobro do trabalho na metade do tempo. Rio de Janeiro, RJ: Sextante, 2019. 254 p.
-
-> **Links úteis**:
-> - [Padrão PUC Minas de normalização ABNT](http://portal.pucminas.br/biblioteca/documentos/GUIA-COMPLETO-ABNT-Elaborar-formatar-trabalho-cientificoNOVO.pdf)
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/)
+- 84% da população adulta do Brasil não comprou nenhum livro no último ano, aponta pesquisa. Globo.com, 7 dez. 2023. Disponível em: https://g1.globo.com/poparte/noticia/2023/12/07/84percent-da-populacao-adulta-do-brasil-nao-comprounenhum-livro-no-ultimo-ano-aponta-pesquisa.ghtml. Acesso em: 22 set. 2024.

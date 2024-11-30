@@ -330,7 +330,7 @@ Esta seção apresenta os módulos e APIs utilizados na solução.
 
 **Fonts:**
 
-* Icons Font Face - [https://fontawesome.com/](https://fontawesome.com/) ⚠️ EXEMPLO ⚠️
+* Google Fonts - [https://fonts.googleapis.com/](https://fonts.googleapis.com/) 
 
 **Scripts:**
 

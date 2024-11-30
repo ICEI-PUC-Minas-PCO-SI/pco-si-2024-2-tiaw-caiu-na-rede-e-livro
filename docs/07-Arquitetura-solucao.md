@@ -21,7 +21,7 @@ Permite o usuário criar uma conta no site.
   * Registre e faça o login.
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+![Tela Cadastro CNREL](https://github.com/user-attachments/assets/f8521602-76ab-4f09-90e0-7096058fa260)
 ##### Funcionalidade 2 - Banner
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema

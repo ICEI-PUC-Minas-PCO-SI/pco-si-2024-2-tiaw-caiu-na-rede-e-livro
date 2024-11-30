@@ -335,7 +335,7 @@ Esta seção apresenta os módulos e APIs utilizados na solução.
 **Scripts:**
 
 * jQuery - [http://www.jquery.com/](http://www.jquery.com/) ⚠️ EXEMPLO ⚠️
-* Bootstrap 4 - [http://getbootstrap.com/](http://getbootstrap.com/) ⚠️ EXEMPLO ⚠️
+* Bootstrap - [https://getbootstrap.com/](https://getbootstrap.com/) 
 
 > ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >

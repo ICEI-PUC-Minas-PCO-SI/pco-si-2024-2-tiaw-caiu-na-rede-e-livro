@@ -66,7 +66,7 @@ Permite o usuário comentar sua opinião sobre o livro.
   * Clique em um livro.
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+![Captura de Tela (142)](https://github.com/user-attachments/assets/5557acea-f704-46fa-9401-1dbf70fb5d44)
 ##### Funcionalidade 6 - Avaliação por Estrelas
 
 Permite avaliar o livro.

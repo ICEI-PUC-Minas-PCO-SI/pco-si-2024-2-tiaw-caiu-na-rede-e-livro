@@ -80,7 +80,7 @@ Permite avaliar o livro.
   * Avalie de 1 a 5 estrelas;
 * **Tela da funcionalidade**:
 
-(![Captura de Tela (140)](https://github.com/user-attachments/assets/a27b767a-9ab0-4427-837d-8ca30bedf051)
+![Captura de Tela (140)](https://github.com/user-attachments/assets/a27b767a-9ab0-4427-837d-8ca30bedf051)
 
 ##### Funcionalidade 7 - Histórico de Leitura
 

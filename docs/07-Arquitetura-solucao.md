@@ -16,7 +16,7 @@ Permite o usuário criar uma conta no site.
 
 * **Estrutura de dados:** [Cadastro](#estrutura-de-dados---cadastro)
 * **Instruções de acesso:**
-  * Abra o site e efetue o cadastro;
+  * Abra o site;
   * Informe seus dados corretamente;
   * Registre e faça o login.
 * **Tela da funcionalidade**:
@@ -28,8 +28,8 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 * **Estrutura de dados:** [Banner](#estrutura-de-dados---banner)
 * **Instruções de acesso:**
-  * Abra o site e efetue o login;
-  * Acesse o menu principal e escolha a opção "Cadastros";
+  * Abra o site;
+  * Acesse o menu principal e escolha a opção "Cadastros;
   * Em seguida, escolha a opção "Contatos".
 * **Tela da funcionalidade**:
 

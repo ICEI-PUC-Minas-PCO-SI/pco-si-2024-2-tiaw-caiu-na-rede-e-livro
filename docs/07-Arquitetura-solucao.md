@@ -74,20 +74,14 @@ Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 
 Permite avaliar o livro.
 
-* **Estrutura de dados:** [Avaliação por Estrela](#{
-    "Avaliação por estrela": [
-        {
-            "Estrela": "5"
-        }
-    ]
-})
+* **Estrutura de dados:** [Avaliação por Estrela](#estrutura-de-dados---contatos)
 * **Instruções de acesso:**
   * Clique no livro;
   * Avalie de 1 a 5 estrelas;
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](![Captura de Tela (140)](https://github.com/user-attachments/assets/a27b767a-9ab0-4427-837d-8ca30bedf051)
-)
+(![Captura de Tela (140)](https://github.com/user-attachments/assets/a27b767a-9ab0-4427-837d-8ca30bedf051)
+
 ##### Funcionalidade 7 - Histórico de Leitura
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema

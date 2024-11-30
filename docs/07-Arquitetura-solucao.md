@@ -10,7 +10,121 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 Esta seção apresenta as funcionalidades da solução.
 
-##### Funcionalidade 1 - Cadastro de contatos ⚠️ EXEMPLO ⚠️
+##### Funcionalidade 1 - Cadastro 
+
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+
+* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção "Cadastros";
+  * Em seguida, escolha a opção "Contatos".
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+##### Funcionalidade 2 - Banner
+
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+
+* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção "Cadastros";
+  * Em seguida, escolha a opção "Contatos".
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+##### Funcionalidade 3 - Carrossel
+
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+
+* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção "Cadastros";
+  * Em seguida, escolha a opção "Contatos".
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+##### Funcionalidade 4 - Filtros
+
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+
+* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção "Cadastros";
+  * Em seguida, escolha a opção "Contatos".
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+##### Funcionalidade 5 - Comentários
+
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+
+* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção "Cadastros";
+  * Em seguida, escolha a opção "Contatos".
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+##### Funcionalidade 6 - Avaliação por Estrelas
+
+Permite avaliar o livro.
+
+* **Estrutura de dados:** [Avaliação por Estrela](#{
+    "Avaliação por estrela": [
+        {
+            "Estrela": "5"
+        }
+    ]
+})
+* **Instruções de acesso:**
+  * Clique no livro;
+  * Avalie de 1 a 5 estrelas;
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](![Captura de Tela (140)](https://github.com/user-attachments/assets/a27b767a-9ab0-4427-837d-8ca30bedf051)
+)
+##### Funcionalidade 7 - Histórico de Leitura
+
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+
+* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção "Cadastros";
+  * Em seguida, escolha a opção "Contatos".
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+##### Funcionalidade 8 - Favoritos
+
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+
+* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção "Cadastros";
+  * Em seguida, escolha a opção "Contatos".
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+##### Funcionalidade 9 - Visto Recentemente
+
+Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+
+* **Estrutura de dados:** [Contatos](#estrutura-de-dados---contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login;
+  * Acesse o menu principal e escolha a opção "Cadastros";
+  * Em seguida, escolha a opção "Contatos".
+* **Tela da funcionalidade**:
+
+![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+##### Funcionalidade 10 - Best Sellers
 
 Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
 

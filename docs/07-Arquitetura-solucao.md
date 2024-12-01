@@ -57,7 +57,7 @@ Permite a pesquisa de livros.
   * Na Home, na aba pesquisar, o usuário encontra os filtros.
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+![WhatsApp Image 2024-12-01 at 2 41 46 PM](https://github.com/user-attachments/assets/696930b3-2cd8-4221-a69b-87be56cd22fd)
 ##### Funcionalidade 5 - Comentários
 
 Permite o usuário comentar sua opinião sobre o livro.
@@ -93,7 +93,8 @@ Permite o usuário acompanhar os livros que leu e avaliou.
   * Em seguida, volte para Home.
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+![WhatsApp Image 2024-12-01 at 2 43 41 PM](https://github.com/user-attachments/assets/aa814967-d4d2-40a4-b635-5569ca2d1e7b)
+![WhatsApp Image 2024-12-01 at 2 47 46 PM](https://github.com/user-attachments/assets/1ee39751-108c-4cd7-95dd-a9321ae3a4ab)
 ##### Funcionalidade 8 - Favoritos
 
 Adiciona os livros favoritos do usuário para uma lista.
@@ -205,13 +206,38 @@ Descrição das estruturas de dados utilizadas na solução com exemplos no form
 
 ```json
   {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
+  "filters": {
+    "searchTerm": "",
+    "genre": "",
+    "author": "",
+    "minPages": 0
+  },
+  "books": [
+    {
+      "title": "O Senhor dos Anéis",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasia",
+      "pages": 1178,
+      "coverImage": "https://covers.openlibrary.org/b/id/8231851-L.jpg",
+      "status": "Não Lido"
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Distopia",
+      "pages": 328,
+      "coverImage": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+      "status": "Não Lido"
+    },
+    {
+      "title": "Dom Casmurro",
+      "author": "Machado de Assis",
+      "genre": "Romance",
+      "pages": 256,
+      "coverImage": "https://covers.openlibrary.org/b/id/8105010-L.jpg",
+      "status": "Não Lido"
+    }
+  ]
   }
   
 ```
@@ -245,20 +271,25 @@ Descrição das estruturas de dados utilizadas na solução com exemplos no form
 
 ```json
   {
-  "livrosNaoLidos": [
+  "books": [
     {
-      "titulo": "O Senhor dos Anéis",
-      "autor": "J.R.R. Tolkien",
-      "acao": "marcar como lido"
-    },
-    {
-      "titulo": "Dom Quixote",
-      "autor": "Miguel de Cervantes",
-      "acao": "marcar como lido"
+      "id": 1,
+      "title": "Título do Livro",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor tristique ultricies. Nunc venenatis metus magna, sed tempor orci lacinia ac. Integer volutpat nulla quis tortor pharetra, blandit euismod neque suscipit. Aliquam vel bibendum leo. Curabitur nec sapien ac turpis pulvinar consequat eu sed orci.",
+      "cover": "https://via.placeholder.com/500x300",
+      "status": "Não Lido"
     }
-  ],
-  "livrosLidos": []
+  ]
   }
+
+{
+  "readBooks": [
+    {
+      "id": 1,
+      "title": "Título do Livro"
+    }
+  ]
+}
   
 ```
 ##### Estrutura de dados - Favoritos

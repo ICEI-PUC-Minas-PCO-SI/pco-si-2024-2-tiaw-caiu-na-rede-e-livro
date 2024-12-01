@@ -377,10 +377,6 @@ Esta seção apresenta os módulos e APIs utilizados na solução.
 
 * Bootstrap - [https://getbootstrap.com/](https://getbootstrap.com/) 
 
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente os módulos e APIs utilizados no desenvolvimento da solução. Inclua itens como: (1) frameworks, bibliotecas, módulos, etc. utilizados no desenvolvimento da solução; (2) APIs utilizadas para acesso a dados, serviços, etc.
-
 
 ## Hospedagem
 

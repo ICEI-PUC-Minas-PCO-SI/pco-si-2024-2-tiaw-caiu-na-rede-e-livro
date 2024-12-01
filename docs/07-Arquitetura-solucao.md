@@ -125,19 +125,12 @@ Mostra ao usuário os livros que acessou recentemente.
 
 Mostra ao usuário os livros mais vendidos.
 
-* **Estrutura de dados:** [Best](#estrutura-de-dados---best)
 * **Instruções de acesso:**
   * Abra o site;
   * Na Home, apresentará os "best sellers".
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
-
-> ⚠️ **APAGUE ESTA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários, quanto aos administradores da solução.
->
-> Inclua, para cada funcionalidade, itens como: (1) títulos e descrição da funcionalidade; (2) estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+![WhatsApp Image 2024-12-01 at 2 33 31 PM](https://github.com/user-attachments/assets/fbdd4d43-7f0e-4d7b-84b4-5be5cdeda1e8)
 
 ### Estruturas de dados
 
@@ -245,13 +238,30 @@ Descrição das estruturas de dados utilizadas na solução com exemplos no form
 
 ```json
   {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
+  "livro": {
+    "nome": 1,
+    "descricao": "Descrição do Livro",
+    "capa": "url_da_capa_do_livro.jpg"
+  },
+  "comentarios": [
+    {
+      "author": "Usuário 1",
+      "text": "Ótimo livro, muito bem escrito!",
+      "date": "2024-10-25"
+    },
+    {
+      "author": "Usuário 2",
+      "text": "Gostei da narrativa, recomendo!",
+      "date": "2024-10-26"
+    }
+  ],
+  "comentario": {
+    "campo_texto": "",
+    "botao_envio": {
+      "texto": "Enviar",
+      "acao": "submeter_avaliacao"
+    }
+  }
   }
   
 ```
@@ -325,21 +335,6 @@ Descrição das estruturas de dados utilizadas na solução com exemplos no form
     }
   
 ```
-##### Estrutura de dados - Best
-
-```json
-  {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
-  
-```
-
 ##### Estrutura de dados - Usuários  ⚠️ EXEMPLO ⚠️
 
 Registro dos usuários do sistema utilizados para login e para o perfil do sistema.

@@ -44,7 +44,9 @@ Apresenta informações nos cards.
   * Abra o site e na Home, o carrossel será apresentado;
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+![WhatsApp Image 2024-11-30 at 2 47 53 PM](https://github.com/user-attachments/assets/e7671588-4c23-46b6-ba49-35d2605c7b3d)
+![WhatsApp Image 2024-11-30 at 2 47 54 PM](https://github.com/user-attachments/assets/0e178cf4-b692-43f6-ace3-9b57f2954a60)
+![WhatsApp Image 2024-11-30 at 2 47 54 PM (1)](https://github.com/user-attachments/assets/1461dc77-5a91-471f-82fc-d5ffeaffbe86)
 ##### Funcionalidade 4 - Filtros
 
 Permite a pesquisa de livros.
@@ -104,7 +106,8 @@ Adiciona os livros favoritos do usuário para uma lista.
   * Em seguida, volte para a Home.
 * **Tela da funcionalidade**:
 
-![Tela de funcionalidade](images/exemplo-funcionalidade.png)
+![WhatsApp Image 2024-11-30 at 2 47 54 PM (2)](https://github.com/user-attachments/assets/8d167c30-d00a-4976-854b-254c3659144b)
+![WhatsApp Image 2024-11-30 at 2 47 54 PM (3)](https://github.com/user-attachments/assets/85f517e5-ee86-443c-988b-d8dab24d65f9)
 ##### Funcionalidade 9 - Visto Recentemente
 
 Mostra ao usuário os livros que acessou recentemente.
@@ -176,14 +179,26 @@ Descrição das estruturas de dados utilizadas na solução com exemplos no form
 
 ```json
   {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
-  }
+  "carrossel": [
+    {
+      "id": 1,
+      "imagem": "slider1.jpg",
+      "descricao": "Primeira imagem do carrossel",
+    },
+    {
+      "id": 2,
+      "imagem": "slider22.jpg",
+      "descricao": "Segunda imagem do carrossel",
+      "link": "livrosemalta.html"
+    },
+    {
+      "id": 3,
+      "imagem": "slidere3.jpg",
+      "descricao": "Terceira imagem do carrossel",
+      "link": "ultimoslancamentos.html"
+    }
+  ]
+ }
   
 ```
 ##### Estrutura de dados - Filtros

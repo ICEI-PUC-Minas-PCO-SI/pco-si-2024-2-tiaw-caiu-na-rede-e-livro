@@ -367,7 +367,7 @@ Esta seção apresenta os módulos e APIs utilizados na solução.
 
 **Images**:
 
-* Unsplash - [https://unsplash.com/](https://unsplash.com/) ⚠️ EXEMPLO ⚠️
+* Open Library - [https://openlibrary.org/](https://openlibrary.org/) 
 
 **Fonts:**
 

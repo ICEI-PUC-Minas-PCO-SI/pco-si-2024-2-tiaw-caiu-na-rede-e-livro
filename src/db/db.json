@@ -1,0 +1,56 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": 2,
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+    },
+    {
+      "login": "rommel",
+      "senha": "123",
+      "nome": "Rommel",
+      "email": "rommel@gmail.com",
+      "id": 3
+    }
+  ],
+  "banner": [
+    {
+      "title": "Seja-Bem Vindo!",
+      "description": "Descubra as melhores resenhas e recomendações em um só lugar!",
+      "image": "assets/img/Imagem 01.png"
+    },
+    {
+      "title": "Caiu na Rede, é Livro!",
+      "description": "Um site de indicações de livros para promover a valorização da literatura!",
+      "image": "assets/img/Imagem 02.png"
+    }
+  ],
+  "carrossel": [
+    {
+      "id": 1,
+      "imagem": "slider1.jpg",
+      "descricao": "Primeira imagem do carrossel"
+    },
+    {
+      "id": 2,
+      "imagem": "slider2.jpg",
+      "descricao": "Segunda imagem do carrossel",
+      "link": "livrosemalta.html"
+    },
+    {
+      "id": 3,
+      "imagem": "slider3.jpg",
+      "descricao": "Terceira imagem do carrossel",
+      "link": "ultimoslancamentos.html"
+    }
+  ]
+}

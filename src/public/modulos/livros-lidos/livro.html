@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Livro</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    .book-container {
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #e3f2fd;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .not-read {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .read {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="book-container">
+    <h1 id="book-title">Título do Livro</h1>
+    <p>Descrição do livro... (sinopse fictícia aqui)</p>
+    <button id="read-button" class="not-read">Não Lido</button>
+  </div>
+
+  <script>
+    const button = document.getElementById("read-button");
+    const bookTitle = document.getElementById("book-title").innerText;
+
+    button.addEventListener("click", () => {
+      // Alterna a aparência e o texto do botão
+      if (button.classList.contains("not-read")) {
+        button.classList.remove("not-read");
+        button.classList.add("read");
+        button.textContent = "Lido";
+
+        // Adiciona o título do livro ao LocalStorage
+        let readBooks = JSON.parse(localStorage.getItem("readBooks")) || [];
+        if (!readBooks.includes(bookTitle)) {
+          readBooks.push(bookTitle);
+          localStorage.setItem("readBooks", JSON.stringify(readBooks));
+        }
+      }
+    });
+  </script>
+</body>
+</html>

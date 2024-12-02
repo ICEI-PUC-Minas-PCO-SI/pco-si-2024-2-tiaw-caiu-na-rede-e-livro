@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livros Lidos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      padding-top: 50px;
+      text-align: center;
+    }
+
+    .book-list-container {
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #e3f2fd;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: #bbdefb;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="book-list-container">
+    <h1>Livros Lidos</h1>
+    <ul id="read-books-list"></ul>
+  </div>
+
+  <script>
+    // Recupera os livros lidos do LocalStorage
+    const readBooks = JSON.parse(localStorage.getItem("readBooks")) || [];
+    const listContainer = document.getElementById("read-books-list");
+
+    // Adiciona os livros à lista
+    if (readBooks.length === 0) {
+      listContainer.innerHTML = "<li>Nenhum livro lido ainda.</li>";
+    } else {
+      readBooks.forEach((book) => {
+        const listItem = document.createElement("li");
+        listItem.textContent = book;
+        listContainer.appendChild(listItem);
+      });
+    }
+  </script>
+</body>
+</html>

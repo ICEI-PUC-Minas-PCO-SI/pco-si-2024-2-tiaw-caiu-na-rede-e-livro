@@ -45,7 +45,7 @@ function exibirLivros(livros) {
         
         
 bookItem.innerHTML = `
-<a href="livro.html?id=${livro.key}" class="book-link">
+<a href="http://localhost:3000/modulos/historico/detalhes-livro.html?id=${livro.key}" class="book-link">
     <img src="${imagemCapa}" alt="Capa do livro">
     <div>
         <h3>${livro.title}</h3>

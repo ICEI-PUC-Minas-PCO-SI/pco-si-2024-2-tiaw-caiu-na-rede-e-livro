@@ -7,15 +7,6 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    height: 100%;
-}
-
-body {
-    background-color: #b3d9d4;
-}
-
 .wrapper {
     display: flex;
     align-items: center;

@@ -99,12 +99,14 @@ function exibirLivrosVisualizados() {
         bookItem.className = 'book-item';
 
         bookItem.innerHTML = `
-            <img src="${livro.cover}" alt="Capa do livro">
-            <div>
-                <h3>${livro.title}</h3>
-                <p>Autor: ${livro.author}</p>
-            </div>
-        `;
+             <a href="livro.html?id=${livro.key}" class="book-link">
+        <img src="${livro.cover}" alt="Capa do livro">
+        <div>
+            <h3>${livro.title}</h3>
+            <p>Autor: ${livro.author}</p>
+        </div>
+    </a>
+`;
 
         recentlyViewedContainer.appendChild(bookItem);
     });

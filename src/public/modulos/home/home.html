@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="../banner/css/banner.css">
     <link rel="stylesheet" href="../historico/css/historico.css">
+    <link rel="stylesheet" href="../carrossel/css/carrossel.css">
+
 
     <title>Caiu na Rede, é Livro!</title>
     <link rel="shortcut icon" href="../assets-projeto/favicon/favicon-32x32.png" type="image/x-icon">
@@ -87,6 +89,38 @@
     <div id="bookList" class="book-list"></div>
 </div>
 
+<!-- Carrossel (começa aqui-->
+<div class="wrapper">
+    <div class="slide-wrapper" data-slide="wrapper">
+        <button class="slide-nav-button slide-nav-previous fas fa-chevron-left"
+            data-slide="nav-previous-button"></button>
+        <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+        <div class="slide-list" data-slide="list">
+            <div class="slide-item" data-slide="item" data-index="0">
+                <div class="slide-content">
+                    <img class="slide-image" src="../assets-projeto/img/slider-1-carrossel.jpg" alt="slider1" />
+                </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="1">
+                <div class="slide-content">
+                    <a href="ultimosLancamentos.html" alt="ultimos-lancamentos">
+                        <img class="slide-image" src="../assets-projeto/img/slider-2-carrossel.jpg" alt="slider2" />
+                    </a>
+                </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="2">
+                <div class="slide-content">
+                    <a href="emAlta.html" alt="em-Alta">
+                        <img class="slide-image" src="../assets-projeto/img/slider-3-carrossel.jpg" alt="slider3" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="slide-controls" data-slide="controls-wrapper">
+        </div>
+    </div>
+</div>
+(termina aqui)
 <!--Visualizados Recentemente-->
 <div class="recently-viewed-container">
     <h2>Visualizados Recentemente</h2>
@@ -105,6 +139,15 @@
     <!--JavaScript de cada módulo-->
     <script src="../banner/js/banner.js"></script>
     <script src="../Filtro+historico+favoritos/script.js"></script>
+    <script src="../carrossel/js/carrossel.js"></script>
+    
+    <script>
+        initSlider({
+            autoPlay: true,
+            startAtIndex: 0,
+            timeInterval: 3000
+        })
+    </script>
 </body>
 
 

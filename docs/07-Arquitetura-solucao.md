@@ -359,7 +359,10 @@ Esta seção apresenta os módulos e APIs utilizados na solução.
 
 **Fonts:**
 
-* Google Fonts - [https://fonts.google.com/](https://fonts.google.com/) 
+* Google Fonts - [https://fonts.google.com/](https://fonts.google.com/)
+
+**Scripts:**
+* Bootstrap - [http://getbootstrap.com/](http://getbootstrap.com/)
 
 
 ## Hospedagem

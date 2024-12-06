@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    color: #575757;
+    background-color: #e4f2f2;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #b3d9d4;
+    padding: 10px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #575757;
+}

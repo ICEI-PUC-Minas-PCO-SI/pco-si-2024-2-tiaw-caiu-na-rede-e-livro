@@ -48,8 +48,9 @@ function exibirLivros(livros) {
                     <p>Autor: ${livro.author_name ? livro.author_name.join(', ') : 'Desconhecido'}</p>
                     <p>Ano: ${livro.first_publish_year || 'Desconhecido'}</p>
                 </div>
+                     <button class="btn-adicionar-favoritos">Adicionar aos Favoritos</button>
+
             </a>
-            <button class="btn-adicionar-favoritos">Adicionar aos Favoritos</button>
         `;
 
         const botaoFavoritos = bookItem.querySelector('.btn-adicionar-favoritos');

@@ -1,0 +1,130 @@
+
+
+/* Estilo dos Livros */
+.book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.book-item {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.book-item img {
+    width: 100px;
+    height: 150px;
+}
+
+.book-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #444;
+}
+
+.book-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+
+/*FAVORITOS*/
+
+button {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.btn-adicionar-favoritos{
+    background-color: #b3d9d4;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-adicionar-favoritos:hover {
+    background-color: #91c6bf;
+    transform: scale(1.05);
+}
+
+
+button[onclick^="removerDosFavoritos"] {
+    background-color: #91c6bf;;
+    color: white;
+    font-weight: bold;
+}
+
+button[onclick^="voltarParaPesquisa"] {
+    background-color:darkgreen;;
+    color: white;
+    font-weight: bold;
+}
+
+button[onclick^="removerDosFavoritos"]:hover {
+    background-color: #e55a5a;
+    transform: scale(1.05);
+}
+
+#container-favoritos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #b3d9d4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#container-favoritos > div {
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+#container-favoritos > div:hover {
+    transform: translateY(-5px);
+}
+
+/* imagem capa do livro */
+#container-favoritos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* título e autor */
+#container-favoritos h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#container-favoritos p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* ajuste texto vazio */
+#container-favoritos p:empty {
+    display: none;
+}

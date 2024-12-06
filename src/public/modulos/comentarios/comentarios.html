@@ -28,14 +28,18 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <title>Caiu na Rede, é Livro!</title>
     <link
       rel="shortcut icon"
       href="assets/favicon_io/favicon-32x32.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/comentarios.css" />
+    <script src="js/comentarios.js" defer></script>
   </head>
 
   <body>
@@ -43,7 +47,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <div class="navbar-brand logo">
-            <a href="#"><img src="assets/img/Logo - 50px.png" alt="Logo" /></a>
+            <a href="../home/home.html"><img src="../assets-projeto/img/logo-50-px.png" alt="Logo" /></a>
           </div>
 
           <button
@@ -61,19 +65,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav menu">
               <li class="nav-item texto">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Livros em alta</a>
               </li>
               <li class="nav-item texto">
-                <a class="nav-link" href="#">Gêneros</a>
+                <a class="nav-link" href="#">Últimos Lançamentos</a>
               </li>
               <li class="nav-item texto">
-                <a class="nav-link" href="#">Ano de lançamento</a>
+                <a class="nav-link" href="#">Meus Favoritos</a>
               </li>
             </ul>
 
             <div class="d-flex align-items-center ms-auto">
               <i class="bi bi-person-circle fs-3"></i>
-              <span class="ms-2"><a href="#" id="user">Usuário</a></span>
+              <span class="ms-2">>Usuário</span>
             </div>
           </div>
         </div>
@@ -85,7 +89,7 @@
         <div class="info-livro">
           <div class="imagem-livro">
             <img
-              src="assets/img/Group.png"
+              src="../assets-projeto/img/capa-livro-comentarios.png"
               alt="Imagem do Livro"
               id="imagem-livro"
             />
@@ -93,9 +97,15 @@
           <div class="detalhes-livro">
             <h2>Nome do Livro</h2>
             <p>Descrição do livro aqui.</p>
-            <div class="avaliacao">
-              <span>★★★★★</span>
-            </div>
+            <div class="rating-box">
+              <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+              </div>
+          </div>
           </div>
         </div>
 
@@ -116,7 +126,7 @@
 
     <footer>
       <p>
-        Desenvolvido por: Anna Vasconcelos, João Vitor Silva, Lucas Sérgio,
+        Desenvolvido por: Anna Vasconcelos, Beatriz Freitas, João Vitor Silva, Lucas Sérgio,
         Renzzo Silva Rocha
       </p>
       <p>© 2024 Caiu na rede, é livro ® - Todos os direitos reservados.</p>

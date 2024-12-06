@@ -12,22 +12,25 @@
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="../banner/assets/css/banner.css">
-    <link rel="stylesheet" href="../banner/assets/css/banner.css">
-    <!-- código cabeçalho-->
+
+    <!-- css de cada modulo -->
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="../banner/css/banner.css">
+    <link rel="stylesheet" href="../historico/css/historico.css">
+
     <title>Caiu na Rede, é Livro!</title>
-    <link rel="shortcut icon" href="assets/favicon_io/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets-projeto/favicon/favicon-32x32.png" type="image/x-icon">
 </head>
 
 <body>
+    <!--Cabeçalho-->
     <header>
         <main>
             </nav>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <div class="navbar-brand logo">
-                        <a class="nav-link" href="#"><img src="assets/img/Logo - 50px.png" alt="Logo"></a></li>
+                        <a class="nav-link" href="#"><img src="../assets-projeto/img/logo-50-px.png" alt="Logo"></a></li>
                     </div>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,8 +42,8 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav menu">
                             <li class="nav-item texto"><a class="nav-link" href="#">Livros em alta</a></li>
-                            <li class="nav-item texto"><a class="nav-link" href="#">Últimos Lançamentos</a></li>
-                            <li class="nav-item texto"><a class="nav-link" href="#">Meus Favoritos</a></li>
+                            <li class="nav-item texto"><a class="nav-link" href="../best-sellers/best-sellers.html">Best Sellers</a></li>
+                            <li class="nav-item texto"><a class="nav-link" href="../favoritos/meus-favoritos.html">Meus Favoritos</a></li>
 
                         </ul>
 
@@ -53,29 +56,55 @@
             </nav>
     </header>
 
+    <!--Banner-->
     <main>
-        <div class="banner" id="banner">
-            <img id="bannerImage" src="../banner/assets/img/Captura de tela 2024-10-06 100645.png" alt="banner1">
+    <div class="banner" id="banner">
+        <img id="bannerImage" src="xxx" alt="banner1">
 
-            <div class="texto">
-                <h1 id="title">xxx</h1>
-                <p id="description">xxx</p>
-                <button id="sobreButton" class="button"><a href="sobre.html">Saiba mais</a></button>
-            </div>
+        <div class="texto">
+            <h1 id="title">xxx</h1>
+            <p id="description">xxx</p>
+            <button id="sobreButton" class="button">
+                <a href="../banner/banner-sobre.html">Saiba mais</a>
+            </button>
         </div>
-    </main>
+    </div>
+</main>
 
+    <!--Filtro-->
+<div class="container">
+    <input type="text" id="searchInput" placeholder="Pesquise pelo título do livro..." onclick="toggleFiltros()">
 
-    <!-- Código rodapé-->
+    <div id="filtrosAdicionais" class="hidden">
+        <select id="genreFilter">
+            <option value="">Selecione um gênero</option>
+        </select>
+        <input type="text" id="authorFilter" placeholder="Pesquise pelo autor...">
+        <input type="number" id="pagesFilter" placeholder="Número mínimo de páginas">
+        <button onclick="filtrarLivros()">Filtrar</button>
+    </div>
+
+    <div id="bookList" class="book-list"></div>
+</div>
+
+<!--Visualizados Recentemente-->
+<div class="recently-viewed-container">
+    <h2>Visualizados Recentemente</h2>
+    <div id="recently-viewed" class="book-list"></div>
+</div>
+
+    <!-- Rodapé-->
     <footer>
         <p>
-            Desenvolvido por: Anna Vasconcelos, João Vitor Silva, Lucas Sérgio,
+            Desenvolvido por: Anna Vasconcelos, Beatriz Freitas, João Vitor Silva, Lucas Sérgio,
             Renzzo Silva Rocha
         </p>
         <p>© 2024 Caiu na rede, é livro ® - Todos os direitos reservados.</p>
     </footer>
 
-    <script src="banner.js"></script>
+    <!--JavaScript de cada módulo-->
+    <script src="../banner/js/banner.js"></script>
+    <script src="../Filtro+historico+favoritos/script.js"></script>
 </body>
 
 

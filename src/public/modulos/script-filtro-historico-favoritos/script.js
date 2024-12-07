@@ -100,7 +100,7 @@ function exibirLivrosVisualizados() {
         bookItem.className = 'book-item';
 
         bookItem.innerHTML = `
-             <a href="livro.html?id=${livro.key}" class="book-link">
+        <a href="http://localhost:3000/modulos/historico/detalhes-livro.html?id=${livro.key}" class="book-link">
         <img src="${livro.cover}" alt="Capa do livro">
         <div>
             <h3>${livro.title}</h3>
@@ -177,10 +177,7 @@ function removerDosFavoritos(key) {
     exibirFavoritos(); // Atualiza a lista
 }
 
-// Redirecionar de volta à pesquisa
-function voltarParaPesquisa() {
-    window.location.href = '../Filtro+historico+favoritos/addfavoritos.html';
-}
+
 
 document.addEventListener('DOMContentLoaded', exibirFavoritos);
 

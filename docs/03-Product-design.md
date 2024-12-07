@@ -12,7 +12,6 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 ## Proposta de valor
 
-##### Proposta para a persona Isaac Silva ⚠️ EXEMPLO ⚠️
 
 ![Mapa de empatia Isaac](images/mapa-de-empatia-isaac.jpg)
 <br>

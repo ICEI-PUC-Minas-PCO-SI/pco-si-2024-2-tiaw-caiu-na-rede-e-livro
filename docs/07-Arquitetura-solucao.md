@@ -4,7 +4,7 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![Arquitetura da solução](images/exemplo-arquitetura.png)
+![Beige Colorful Minimal Flowchart Infographic Graph (1)](https://github.com/user-attachments/assets/a00a24a6-a349-46d2-8276-2235ff96b3c9)
 
 ## Funcionalidades
 

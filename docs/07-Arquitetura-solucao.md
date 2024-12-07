@@ -341,11 +341,12 @@ Registro dos usuários do sistema utilizados para login e para o perfil do siste
 
 ```json
   {
-    Nome de Usuário: "luc4s",
-    Email: "emaildolucas@gmail.com",
-    Senha: "123",
-    Login: "admin"
-    Id: "1"
+    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
+    email: "admin@abc.com",
+    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
+    login: "admin",
+    nome: "Administrador do Sistema",
+    senha: "123"
   }
 ```
 

@@ -28,8 +28,8 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 A equipe utiliza o Scrumban como base para definição do processo de desenvolvimento. A seguir, irá ser apresentado a divisão dos papéis do grupo de acordo com esta metodologia:
 
-- Scrum Master: Renzzo Rocha
-- Product Owner: João Barbosa
+- Scrum Master: Beatriz Freitas
+- Product Owner: Renzzo Rocha
 - Equipe de Desenvolvimento: Anna Vasconcelos, Beatriz Freitas, João Barbosa, Lucas Sergio e Renzzo Rocha
 - Equipe de Design: Anna Vasconcelos
 

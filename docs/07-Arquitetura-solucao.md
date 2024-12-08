@@ -65,7 +65,8 @@ Permite o usuário comentar sua opinião sobre o livro.
 * **Estrutura de dados:** [Comentários](#estrutura-de-dados---comentários)
 * **Instruções de acesso:**
   * Abra o site;
-  * Clique em um livro.
+  * Clique em um livro;
+  * Comente.
 * **Tela da funcionalidade**:
 
 ![Captura de Tela (142)](https://github.com/user-attachments/assets/5557acea-f704-46fa-9401-1dbf70fb5d44)
@@ -77,6 +78,7 @@ Permite avaliar o livro.
 * **Instruções de acesso:**
   * Abra o site; 
   * Clique em um livro;
+  * Avalie de 1 a 5 estrelas.
 * **Tela da funcionalidade**:
 
 ![Captura de Tela (140)](https://github.com/user-attachments/assets/a27b767a-9ab0-4427-837d-8ca30bedf051)
@@ -102,9 +104,9 @@ Adiciona os livros favoritos do usuário para uma lista.
 * **Estrutura de dados:** [Favoritos](#estrutura-de-dados---favoritos)
 * **Instruções de acesso:**
   * Abra o site;
-  * Acesse um livro;
-  * Clique em "Favoritar";
-  * Em seguida, volte para a Home.
+  * Pesquise um livro;
+  * Clique em "Adicionar aos Fvoritos";
+  * Em seguida, em "Meus Favoritos".
 * **Tela da funcionalidade**:
 
 ![WhatsApp Image 2024-11-30 at 2 47 54 PM (2)](https://github.com/user-attachments/assets/8d167c30-d00a-4976-854b-254c3659144b)

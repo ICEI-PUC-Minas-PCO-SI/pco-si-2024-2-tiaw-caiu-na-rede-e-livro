@@ -1,40 +1,75 @@
+/* CABEÇALHO*/
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Barlow', sans-serif;
-  }
-  
-  body {
-    font-family: 'Barlow', sans-serif;
-    background-color: #52857b;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 20px;
-    background-color: #e4f2f2;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-  }
-  
-  header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  header h1 {
-    font-size: 2.5rem;
-    color: #52857b;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  color: #575757;
+  background-color: #e4f2f2;
+  height: 100%;
+
+}
+
+header {
+  background-color: #b3d9d4;
+  padding: 10px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.logo img {
+  width: 35px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+  color: #575757;
+}
+
+.user img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.user span {
+  font-size: 16px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.search-bar button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button:hover {
+  background-color: #b3d9d4;
+}
+
   
   .book-list {
+    font-family: 'Barlow', sans-serif;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
@@ -68,3 +103,16 @@
     font-size: 1rem;
     color: #555;
   }
+
+  /*RODAPÉ*/
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #b3dcd7;
+  padding: 13px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  margin-top: 150px;
+}

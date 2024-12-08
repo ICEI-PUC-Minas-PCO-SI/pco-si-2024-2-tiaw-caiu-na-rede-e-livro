@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="../banner/css/banner.css">
     <link rel="stylesheet" href="../historico/css/historico.css">
     <link rel="stylesheet" href="../carrossel/css/carrossel.css">
+    
 
+    
 
     <title>Caiu na Rede, é Livro!</title>
     <link rel="shortcut icon" href="../assets-projeto/favicon/favicon-32x32.png" type="image/x-icon">
@@ -32,7 +34,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <div class="navbar-brand logo">
-                        <a class="nav-link" href="#"><img src="../assets-projeto/img/logo-50-px.png" alt="Logo"></a></li>
+                        <a class="nav-link" href="home.html"><img src="../assets-projeto/img/logo-50-px.png" alt="Logo"></a></li>
                     </div>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,7 +45,7 @@
 
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav menu">
-                            <li class="nav-item texto"><a class="nav-link" href="#">Livros em alta</a></li>
+                            <li class="nav-item texto"><a class="nav-link" href="emAlta.html">Livros em alta</a></li>
                             <li class="nav-item texto"><a class="nav-link" href="../best-sellers/best-sellers.html">Best Sellers</a></li>
                             <li class="nav-item texto"><a class="nav-link" href="../favoritos/meus-favoritos.html">Meus Favoritos</a></li>
 
@@ -103,7 +105,7 @@
             </div>
             <div class="slide-item" data-slide="item" data-index="1">
                 <div class="slide-content">
-                    <a href="ultimosLancamentos.html" alt="ultimos-lancamentos">
+                    <a href="#ultimosLancamentos" alt="ultimos-lancamentos">
                         <img class="slide-image" src="../assets-projeto/img/slider-2-carrossel.jpg" alt="slider2" />
                     </a>
                 </div>
@@ -120,7 +122,15 @@
         </div>
     </div>
 </div>
-(termina aqui)
+<!--(termina aqui) -->
+
+<div class="container mt-5">
+    <!-- Últimos Lançamentos -->
+    <section>
+        <h2 class="mb-4">Últimos Lançamentos</h2>
+        <div id="ultimosLancamentos" class="row gy-4 justify-content-center"></div>
+    </section>
+
 <!--Visualizados Recentemente-->
 <div class="recently-viewed-container">
     <h2>Visualizados Recentemente</h2>
@@ -140,6 +150,7 @@
     <script src="../banner/js/banner.js"></script>
     <script src="../script-filtro-historico-favoritos/script.js"></script>
     <script src="../carrossel/js/carrossel.js"></script>
+    <script src="../home/js/livrosHome.js"></script>
     
     <script>
         initSlider({
@@ -149,7 +160,4 @@
         })
     </script>
 </body>
-
-
-
 </html>

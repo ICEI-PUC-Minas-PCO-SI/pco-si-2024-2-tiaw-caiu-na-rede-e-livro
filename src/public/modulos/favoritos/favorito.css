@@ -1,37 +1,85 @@
+/* CABEÇALHO*/
 
-
-/* Estilo dos Livros */
-.book-list {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.book-item {
-    display: flex;
-    gap: 15px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: #fff;
-}
-
-.book-item img {
-    width: 100px;
-    height: 150px;
-}
-
-.book-item h3 {
+* {
     margin: 0;
-    font-size: 18px;
-    color: #444;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.book-item p {
-    margin: 5px 0;
-    color: #666;
+body {
+    font-family: 'Barlow', sans-serif;
+    color: #575757;
+    background-color: #e4f2f2;
+    height: 100%;
+
 }
 
+header {
+    background-color: #b3d9d4;
+    padding: 10px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    color: #575757;
+}
+
+.user img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.user span {
+    font-size: 16px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.search-bar button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-bar button:hover {
+    background-color: #b3d9d4;
+}
+
+
+/*RODAPÉ*/
+
+footer {
+     position: relative;
+     width: 100%;
+     background-color: #b3dcd7;
+     padding: 13px;
+     text-align: center;
+     color: #333;
+     font-size: 14px;
+     margin-top: 150px;
+   }
 
 /*FAVORITOS*/
 

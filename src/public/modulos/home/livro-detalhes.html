@@ -12,22 +12,20 @@
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="favorito.css">
+    <link rel="stylesheet" href="css/home.css">
 
-
-    <!-- código cabeçalho-->
-    <title>Favoritos</title>
+    <title>Caiu na Rede, é Livro!</title>
     <link rel="shortcut icon" href="../assets-projeto/favicon/favicon-32x32.png" type="image/x-icon">
 </head>
-
 <body>
+    <!--Cabeçalho-->
     <header>
         <main>
             </nav>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <div class="navbar-brand logo">
-                        <a class="nav-link" href="../home/home.html"><img src="../assets-projeto/img/logo-50-px.png" alt="Logo"></a></li>
+                        <a class="nav-link" href="home.html"><img src="../assets-projeto/img/logo-50-px.png" alt="Logo"></a></li>
                     </div>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,7 +37,8 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav menu">
                             <li class="nav-item texto"><a class="nav-link" href="#">Livros em alta</a></li>
-                            <li class="nav-item texto"><a class="nav-link" href="../best-sellers/best-sellers.html">Best Sellers</a></li>                            
+                            <li class="nav-item texto"><a class="nav-link" href="../best-sellers/best-sellers.html">Best Sellers</a></li>
+                            <li class="nav-item texto"><a class="nav-link" href="../favoritos/meus-favoritos.html">Meus Favoritos</a></li>
 
                         </ul>
 
@@ -51,22 +50,23 @@
                 </div>
             </nav>
     </header>
-    <br>
-    <h2>Meus Livros Favoritos</h2>
-    <br>
-    <div id="container-favoritos">
 
-        <!-- serão exibidos aqui -->
-    </div>
+    <h1 id="titulo"></h1>
+        <p id="autor"></p>
+        <section id="detalhes-livro">
+            <img id="imagem" src="" alt="">
+            <p id="sinopse"></p>
+        </section>
     
-    <footer>
-        <p>
-            Desenvolvido por: Anna Vasconcelos, Beatriz Freitas, João Vitor Silva, Lucas Sérgio,
-            Renzzo Silva Rocha
-        </p>
-        <p>© 2024 Caiu na rede, é livro ® - Todos os direitos reservados.</p>
-    </footer>
-    <script src="../script-filtro-historico-favoritos/script.js" defer></script>
-</body>
+ <!-- Rodapé-->
+ <footer>
+    <p>
+        Desenvolvido por: Anna Vasconcelos, Beatriz Freitas, João Vitor Silva, Lucas Sérgio,
+        Renzzo Silva Rocha
+    </p>
+    <p>© 2024 Caiu na rede, é livro ® - Todos os direitos reservados.</p>
+</footer>
 
+<script src="../home/js/livrosHome.js"></script>
+</body>
 </html>

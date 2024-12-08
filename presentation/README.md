@@ -10,7 +10,7 @@ Coloque aqui o conjunto de slides.
 > O arquivo deve estar no formato PDF e conter a apresentação completa do projeto, abordando todos os itens trabalhados nos demais artefatos. 
 
 Slide 01 - Caiu na Rede, é Livro!
-> **Links úteis**:[Slide 01 - Caiu na Rede, é Livro!.pdf](https://github.com/user-attachments/files/18054085/Slide.01.-.Caiu.na.Rede.e.Livro.pdf)
+[Slide 01 - Caiu na Rede, é Livro!.pdf](https://github.com/user-attachments/files/18054085/Slide.01.-.Caiu.na.Rede.e.Livro.pdf)
 
 
 

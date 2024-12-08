@@ -129,7 +129,7 @@ Mostra ao usuário os livros mais vendidos.
 
 * **Instruções de acesso:**
   * Abra o site;
-  * Na Home, apresentará os "best sellers".
+  * Na Home, clique em "Best Sellers".
 * **Tela da funcionalidade**:
 
 ![WhatsApp Image 2024-12-01 at 2 33 31 PM](https://github.com/user-attachments/assets/fbdd4d43-7f0e-4d7b-84b4-5be5cdeda1e8)

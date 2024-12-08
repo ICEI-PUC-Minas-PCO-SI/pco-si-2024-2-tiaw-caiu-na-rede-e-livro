@@ -13,8 +13,10 @@
       crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="shortcut icon" href="assets/favicon_io/favicon-32x32.png" type="image/x-icon" />
+  <link rel="stylesheet" href="../comentarios/css/comentarios.css" />
+  <script src="js/comentarios.js" defer></script>
   
-
   <title>Detalhes do Livro</title>
   <a href="index.html"><link rel="shortcut icon" href="../assets-projeto/favicon/favicon-32x32.png" type="image/x-icon"></a>
 
@@ -62,6 +64,19 @@
   <p><strong>Descrição:</strong></p>
   <p id="book-description">Carregando...</p>
   <script src="js/detalhes-livros.js"></script>
+
+  <div class="secao-de-comentario">
+    <form action="#" method="POST">
+      <label for="comment">Faça um comentário.</label>
+      <textarea
+        id="comment"
+        name="comment"
+        rows="5 "
+        placeholder="Escreva seu comentário aqui..."
+      ></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
 </body>
 
 </html>

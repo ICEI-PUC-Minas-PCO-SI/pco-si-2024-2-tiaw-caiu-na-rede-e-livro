@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -86,10 +85,11 @@ header {
 .secao-de-comentario {
   width: 100%;
   max-width: 600px;
-  background-color: #f7f7f7;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 300px;
+  margin-left: 35%;
 }
 
 .secao-de-comentario form {

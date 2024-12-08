@@ -17,7 +17,7 @@ Permite o usuário criar uma conta no site.
 * **Estrutura de dados:** [Cadastro](#estrutura-de-dados---cadastro)
 * **Instruções de acesso:**
   * Abra o site e clique em login;
-  * No login, em "cadastre-se";
+  * Caso não tenha conta, cadastre-se;
   * Informe seus dados corretamente;
   * Registre e faça o login.
 * **Tela da funcionalidade**:

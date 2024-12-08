@@ -104,6 +104,13 @@ header {
     color: #555;
   }
 
+  #h1-best-sellers {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    color: #52857b;
+  }
+
   /*RODAPÉ*/
 
 footer {

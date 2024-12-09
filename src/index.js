@@ -21,7 +21,16 @@ const router = jsonServer.router('./db/db.json')
 // colocando o atributo readOnly como false.
 const middlewares = jsonServer.defaults({ noCors: true })
 server.use(middlewares)
+
+server.use(
+  jsonServer.rewriter({
+    "/*": "/"
+  })
+)
+
 server.use(router)
+
+
 
 server.listen(3000, () => {
   console.log(`JSON Server is running em http://localhost:3000`)

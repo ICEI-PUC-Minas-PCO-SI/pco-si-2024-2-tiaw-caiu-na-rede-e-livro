@@ -1,0 +1,121 @@
+/* Aqui começa Pesquisas e Filtros */
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#searchInput:focus {
+    border-color: #007bff;
+}
+
+#genreFilter, #authorFilter, #pagesFilter, button {
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+#genreFilter:hover, #authorFilter:hover, #pagesFilter:hover, button:hover {
+    border-color: #007bff;
+    background-color: #e9ecef;
+}
+/* Aqui termina Pesquisas e Filtros */
+
+
+
+/* Visualizados Recentemente */
+.recently-viewed-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffffe1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.book-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    background: #ffffffe1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+}
+
+/* Cards */
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.card {
+    width: 200px; 
+    height: 350px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    background-color: #ffffffe1;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+
+.card img {
+    width: 100%;
+    height: 60%; 
+    object-fit: cover; 
+    border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px;
+    justify-items: center;
+}

@@ -21,5 +21,38 @@
       "email": "rommel@gmail.com",
       "id": 3
     }
-  ]
-}
+  ],
+  "banner": [
+    {
+      "title": "Seja-Bem Vindo!",
+      "description": "Descubra as melhores resenhas e recomendações em um só lugar!",
+      "image": "../assets-projeto/img/banner-image-01.png"
+    },
+    {
+      "title": "Caiu na Rede, é Livro!",
+      "description": "Um site de indicações de livros para promover a valorização da literatura!",
+      "image": "../assets-projeto/img/banner-image-02.png"
+    }
+  ],
+  "carrossel": [
+    {
+      "id": 1,
+      "imagem": "slider1.jpg",
+      "descricao": "Primeira imagem do carrossel"
+    },
+    {
+      "id": 2,
+      "imagem": "slider2.jpg",
+      "descricao": "Segunda imagem do carrossel",
+      "link": "livrosemalta.html"
+    },
+    {
+      "id": 3,
+      "imagem": "slider3.jpg",
+      "descricao": "Terceira imagem do carrossel",
+      "link": "ultimoslancamentos.html"
+    }
+  ],
+  "comments": []
+  
+ }

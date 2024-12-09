@@ -1,0 +1,190 @@
+/* CABEÇALHO*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    color: #575757;
+    background-color: #e4f2f2;
+    height: 100%;
+
+}
+
+header {
+    background-color: #b3d9d4;
+    padding: 10px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    color: #575757;
+}
+
+.user img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.user span {
+    font-size: 16px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.search-bar button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-bar button:hover {
+    background-color: #b3d9d4;
+}
+
+
+/*RODAPÉ*/
+
+footer {
+     position: relative;
+     width: 100%;
+     background-color: #b3dcd7;
+     padding: 13px;
+     text-align: center;
+     color: #333;
+     font-size: 14px;
+     margin-top: 150px;
+   }
+   
+/* Adicionando o estilo para os cards na página */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que os itens se quebrem em várias linhas */
+    gap: 50px;
+    /* Adiciona o espaçamento entre os cards */
+    justify-content: space-between;
+    /* Distribui os itens igualmente */
+    padding: 20px;
+}
+
+.card {
+    width: 30%;
+    /* Faz com que cada card ocupe 30% da largura */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Estilo para a página de detalhes do livro */
+
+#detalhes-livro {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo da imagem */
+#imagem {
+    width: 300px;
+    /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo dos textos */
+#titulo {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+    /* Remova margens extras */
+}
+
+#autor {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    /* Espaçamento entre autor e sinopse */
+    color: #575757;
+}
+
+#sinopse {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Garantir alinhamento do título com a imagem */
+#detalhes-livro {
+    align-items: flex-start;
+}
+
+/* Botao adicionar fav*/
+button {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.btn-adicionar-favoritos{
+    background-color: #b3d9d4;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-adicionar-favoritos:hover {
+    background-color: #91c6bf;
+    transform: scale(1.05);
+}
+
+
+

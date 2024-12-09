@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="../banner/css/banner.css">
     <link rel="stylesheet" href="../historico/css/historico.css">
     <link rel="stylesheet" href="../carrossel/css/carrossel.css">
-    
 
-    
+
+
 
     <title>Caiu na Rede, é Livro!</title>
     <link rel="shortcut icon" href="../assets-projeto/favicon/favicon-32x32.png" type="image/x-icon">
@@ -34,7 +34,8 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <div class="navbar-brand logo">
-                        <a class="nav-link" href="home.html"><img src="../assets-projeto/img/logo-50-px.png" alt="Logo"></a></li>
+                        <a class="nav-link" href="home.html"><img src="../assets-projeto/img/logo-50-px.png"
+                                alt="Logo"></a></li>
                     </div>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -46,8 +47,10 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav menu">
                             <li class="nav-item texto"><a class="nav-link" href="emAlta.html">Livros em Alta</a></li>
-                            <li class="nav-item texto"><a class="nav-link" href="../best-sellers/best-sellers.html">Best Sellers</a></li>
-                            <li class="nav-item texto"><a class="nav-link" href="../favoritos/meus-favoritos.html">Meus Favoritos</a></li>
+                            <li class="nav-item texto"><a class="nav-link" href="../best-sellers/best-sellers.html">Best
+                                    Sellers</a></li>
+                            <li class="nav-item texto"><a class="nav-link" href="../favoritos/meus-favoritos.html">Meus
+                                    Favoritos</a></li>
 
                         </ul>
 
@@ -62,102 +65,114 @@
 
     <!--Banner-->
     <main>
-    <div class="banner" id="banner">
-        <img id="bannerImage" src="xxx" alt="banner1">
+        <div class="banner" id="banner">
+            <img id="bannerImage" src="xxx" alt="banner1">
 
-        <div class="texto">
-            <h1 id="title">xxx</h1>
-            <p id="description">xxx</p>
-            <button id="sobreButton" class="button">
-                <a href="../banner/banner-sobre.html">Saiba mais</a>
-            </button>
+            <div class="texto">
+                <h1 id="title">xxx</h1>
+                <p id="description">xxx</p>
+                <button id="sobreButton" class="button">
+                    <a href="../banner/banner-sobre.html">Saiba mais</a>
+                </button>
+            </div>
         </div>
-    </div>
-</main>
+    </main>
 
     <!--Filtro-->
-<div class="container">
-    <input type="text" id="searchInput" placeholder="Pesquise pelo título do livro..." onclick="toggleFiltros()">
+    <div class="container">
+        <input type="text" id="searchInput" placeholder="Pesquise pelo título do livro..." onclick="toggleFiltros()">
 
-    <div id="filtrosAdicionais" class="hidden">
-        <select id="genreFilter">
-            <option value="">Selecione um gênero</option>
-        </select>
-        <input type="text" id="authorFilter" placeholder="Pesquise pelo autor...">
-        <input type="number" id="pagesFilter" placeholder="Número mínimo de páginas">
-        <button onclick="filtrarLivros()">Filtrar</button>
+        <div id="filtrosAdicionais" class="hidden">
+            <select id="genreFilter">
+                <br>
+                <option value="">Selecione um gênero</option>
+            </select>
+            <input type="text" id="authorFilter" placeholder="Pesquise pelo autor...">
+            <input type="number" id="pagesFilter" placeholder="Número mínimo de páginas">
+            <button onclick="filtrarLivros()">Filtrar</button>
+        </div>
+
+        <div id="bookList" class="book-list"></div>
     </div>
 
-    <div id="bookList" class="book-list"></div>
-</div>
+    <br>
+    <br>
+    <br>
 
-<!-- Carrossel (começa aqui-->
-<div class="wrapper">
-    <div class="slide-wrapper" data-slide="wrapper">
-        <button class="slide-nav-button slide-nav-previous fas fa-chevron-left"
-            data-slide="nav-previous-button"></button>
-        <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
-        <div class="slide-list" data-slide="list">
-            <div class="slide-item" data-slide="item" data-index="0">
-                <div class="slide-content">
-                    <img class="slide-image" src="../assets-projeto/img/slider-1-carrossel.jpg" alt="slider1" />
+    <!-- Carrossel (começa aqui-->
+    <div class="wrapper">
+        <div class="slide-wrapper" data-slide="wrapper">
+            <button class="slide-nav-button slide-nav-previous fas fa-chevron-left"
+                data-slide="nav-previous-button"></button>
+            <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+            <div class="slide-list" data-slide="list">
+                <div class="slide-item" data-slide="item" data-index="0">
+                    <div class="slide-content">
+                        <img class="slide-image" src="../assets-projeto/img/slider-1-carrossel.jpg" alt="slider1" />
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="1">
+                    <div class="slide-content">
+                        <a href="#ultimosLancamentos" alt="ultimos-lancamentos">
+                            <img class="slide-image" src="../assets-projeto/img/slider-2-carrossel.jpg" alt="slider2" />
+                        </a>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="2">
+                    <div class="slide-content">
+                        <a href="emAlta.html" alt="em-Alta">
+                            <img class="slide-image" src="../assets-projeto/img/slider-3-carrossel.jpg" alt="slider3" />
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="slide-item" data-slide="item" data-index="1">
-                <div class="slide-content">
-                    <a href="#ultimosLancamentos" alt="ultimos-lancamentos">
-                        <img class="slide-image" src="../assets-projeto/img/slider-2-carrossel.jpg" alt="slider2" />
-                    </a>
-                </div>
+            <div class="slide-controls" data-slide="controls-wrapper">
             </div>
-            <div class="slide-item" data-slide="item" data-index="2">
-                <div class="slide-content">
-                    <a href="emAlta.html" alt="em-Alta">
-                        <img class="slide-image" src="../assets-projeto/img/slider-3-carrossel.jpg" alt="slider3" />
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="slide-controls" data-slide="controls-wrapper">
         </div>
     </div>
-</div>
-<!--(termina aqui) -->
+    <!--(termina aqui) -->
 
-<div class="container mt-5">
-    <!-- Últimos Lançamentos -->
-    <section>
-        <h2 class="mb-4">Últimos Lançamentos</h2>
-        <div id="ultimosLancamentos" class="row gy-4 justify-content-center"></div>
-    </section>
+    <div class="container mt-5">
+        <!-- Últimos Lançamentos -->
+        <section>
+            <h2 class="mb-4">Últimos Lançamentos</h2>
+            <div id="ultimosLancamentos" class="row gy-4 justify-content-center"></div>
+        </section>
 
-<!--Visualizados Recentemente-->
-<div class="recently-viewed-container">
-    <h2>Visualizados Recentemente</h2>
-    <div id="recently-viewed" class="book-list"></div>
-</div>
+        <br>
+        <br>
+        <br>
+        <br>
 
-    <!-- Rodapé-->
-    <footer>
-        <p>
-            Desenvolvido por: Anna Vasconcelos, Beatriz Freitas, João Vitor Silva, Lucas Sérgio,
-            Renzzo Silva Rocha
-        </p>
-        <p>© 2024 Caiu na rede, é livro ® - Todos os direitos reservados.</p>
-    </footer>
+        <!--Visualizados Recentemente-->
+        <div class="recently-viewed-container">
+            <h2>Visualizados Recentemente</h2>
+            <div id="recently-viewed" class="book-list"></div>
+        </div>
 
-    <!--JavaScript de cada módulo-->
-    <script src="../banner/js/banner.js"></script>
-    <script src="../script-filtro-historico-favoritos/script.js"></script>
-    <script src="../carrossel/js/carrossel.js"></script>
-    <script src="../home/js/livrosHome.js"></script>
-    
-    <script>
-        initSlider({
-            autoPlay: true,
-            startAtIndex: 0,
-            timeInterval: 3000
-        })
-    </script>
+
+        <!-- Rodapé-->
+        <footer>
+            <p>
+                Desenvolvido por: Anna Vasconcelos, Beatriz Freitas, João Vitor Silva, Lucas Sérgio,
+                Renzzo Silva Rocha
+            </p>
+            <p>© 2024 Caiu na rede, é livro ® - Todos os direitos reservados.</p>
+        </footer>
+
+        <!--JavaScript de cada módulo-->
+        <script src="../banner/js/banner.js"></script>
+        <script src="../script-filtro-historico-favoritos/script.js"></script>
+        <script src="../carrossel/js/carrossel.js"></script>
+        <script src="../home/js/livrosHome.js"></script>
+
+        <script>
+            initSlider({
+                autoPlay: true,
+                startAtIndex: 0,
+                timeInterval: 3000
+            })
+        </script>
 </body>
+
 </html>

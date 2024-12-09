@@ -4,7 +4,7 @@ let banners = [];
 
 async function fetchBanners() {
     try {
-        const response = await fetch('https://api-caiu-na-rede-e-livro.vercel.app/banners');
+        const response = await fetch('https://api-caiu-na-rede-e-livro.vercel.app/banner');
         if (!response.ok) {
             throw new Error(`Erro: ${response.statusText}`);
         }

@@ -4,7 +4,7 @@ let banners = [];
 
 async function fetchBanners() {
     try {
-        const response = await fetch('../../../src/db/banner');
+        const response = await fetch('../../db/db.json/banner');
         if (!response.ok) {
             throw new Error(`Erro: ${response.statusText}`);
         }

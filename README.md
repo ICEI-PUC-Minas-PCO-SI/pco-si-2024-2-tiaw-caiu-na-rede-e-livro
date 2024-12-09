@@ -28,13 +28,9 @@ Dessa forma, queremos não apenas facilitar a escolha de livros, mas também est
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Acesse o WebApp pelo seguinte link:
 
-Não deixe de informar o link onde a aplicação estará disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+- [WebApp](https://pco-si-2024-2-tiaw-caiu-na-rede-e-livro.vercel.app/modulos/login/login.html)
 
 # Documentação
 

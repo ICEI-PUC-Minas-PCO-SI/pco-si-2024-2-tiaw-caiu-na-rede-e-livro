@@ -24,5 +24,5 @@ server.use(middlewares)
 server.use(router)
 
 server.listen(3000, () => {
-  console.log(`JSON Server is running em https://api-caiu-na-rede-e-livro.vercel.app/`)
+  console.log(`JSON Server is running em http://localhost:3000`)
 })

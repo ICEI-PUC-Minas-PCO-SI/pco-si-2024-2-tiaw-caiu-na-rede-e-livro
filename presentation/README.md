@@ -7,6 +7,9 @@
 Slide 01 - Caiu na Rede, é Livro!
 [Slide 01 - Caiu na Rede, é Livro!.pdf](https://github.com/user-attachments/files/18054085/Slide.01.-.Caiu.na.Rede.e.Livro.pdf)
 
+Slide 02 - Caiu na Rede, é Livro!
+[Slide.02.-.Caiu.na.rede.e.livro.pdf](https://github.com/user-attachments/files/18055105/Slide.02.-.Caiu.na.rede.e.livro.pdf)
+
 ## Vídeo
 
 O grupo também deverá gravar um vídeo de até cinco minutos apresentando a solução. O vídeo deve incluir uma demonstração da aplicação hospedada, mostrando seu funcionamento.

@@ -13,7 +13,7 @@
 // Página inicial de Login
 const LOGIN_URL = "/modulos/login/login.html";
 let RETURN_URL = "/modulos/login/login.html";
-const API_URL = '/usuarios';
+const API_URL = 'https://api-caiu-na-rede-e-livro.vercel.app/usuarios';
 
 // Objeto para o banco de dados de usuários baseado em JSON
 var db_usuarios = {};

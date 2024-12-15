@@ -1,47 +1,35 @@
 # Código-fonte
 
-
-Esta é a pasta destinada à manutenção do programa que será desenvolvido no contexto desta disciplina.
-
-Se necessário, deve-se descrever neste arquivo os aspectos relevantes da estrutura de diretórios criada para a organização do código.
-
-Uma sugestão para a estrutura de diretórios do projeto é a seguinte:
-
 ```plaintext
 src/  (esta pasta aqui)
 │
 ├── db/
-│   └── db.json (estruturas de dados)
+│   └── db.json 
 │
 ├── public/ (seu site - front-end)
 │   ├── assets/
 │   │   ├── css/
 │   │   │   ├── styles.css
-│   │   │   └── (outros arquivos .css)
+│   │   │   └── login.css
 │   │   │
 │   │   ├── js/
-│   │   │   ├── app.js
-│   │   │   └── (outros arquivos .js)
+│   │   │   ├── login.js
 │   │   │
 │   │   ├── images/
-│   │   │   ├── logo.png
-│   │   │   └── (outras imagens)
-│   │   │
-│   │   └── fonts/
-│   │       ├── font1.ttf
-│   │       └── (outras fontes)
-│   │
+│   │   │   ├── Logo - Caiu na rede, é Livro!.jpg
+│   │   │   ├── arquivo_json.png
+│   │   │   ├── banner_ti.png
+│   │   │   ├── dinamica_web.png
+│   │   │   └── servidor.png
+│   │       
 │   ├── modulos/
-│   │   ├── modulo-1/
-│   │   │   └── (arquivos do módulo)
+│   │   ├── nome-da-feature/
+│   │   │   └── (arquivos da feature)
 │   │   │
-│   │   └── modulo-2/
-│   │       └── (arquivos do módulo)
+│   │   └── nome-da-feature/
+│   │       └── (arquivos da feature)
 │   │
-│   ├── index.html (página inicial front-end)
-│   ├── about.html
-│   ├── contact.html
-│   └── (outras páginas)
+│   ├── index.html (página inicial front-end - clicar na home para entrar no projeto!)
 │
 │── index.js (app back-end)
 │── package.json (configuração back-end)
@@ -83,11 +71,6 @@ Isso permitirá que o NPM instale todos os pacotes necessários para a execuçã
 Em seguida, com os pacotes já instalados, basta executar o seguinte comando:
 
 ```
-$> npm start
+$> npm run start
 ```
-
 Isso fará com que o Node.js execute a aplicação de back-end, iniciando o servidor web e a API RESTful fornecida pelo JSON Server a partir do arquivo `db.json`.
-
-## Dúvidas e suporte
-
-Caso tenha dúvidas, recomenda-se procurar a monitoria, que estará disponível para auxiliá-lo(a) a compreender todo o ambiente e a apoiá-lo(a) na implementação do seu projeto.

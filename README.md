@@ -30,7 +30,7 @@ Dessa forma, queremos não apenas facilitar a escolha de livros, mas também est
 
 Acesse o WebApp pelo seguinte link:
 
-- [WebApp](https://pco-si-2024-2-tiaw-caiu-na-rede-e-livro.vercel.app/modulos/login/login.html)
+- [WebApp](https://pco-si-2024-2-tiaw-caiu-na-rede-e-livro.vercel.app/)
 
 # Documentação
 

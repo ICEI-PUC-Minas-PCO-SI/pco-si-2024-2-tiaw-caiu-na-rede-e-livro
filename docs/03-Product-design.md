@@ -9,8 +9,12 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Amo personagens que se parecem comigo  | Quero a descrição dos personagens         | Para me identificar com eles |
-|   oi  | Alterar permissões        ⚠️ EXEMPLO ⚠️         | Permitir que possam administrar contas |
+|Amo personagens que se parecem comigo  |Descrição dos personagens         | Me identificar com eles |
+|Gosto de livros de suspense |Livros semelhantes| Comprar um livro |
+|Estou englobado no mundo da tecnologia | Achar um livro de ficção científica | Ler e comentar com meus amigos |
+| Não tenho muito tempo livre | Um site que me indique boas leituras de forma rápida e objetiva | Decidir se vou comprar ou não |
+| Pretendo viajar muito ano que vem | Encontrar bons audiobooks | Escutar enquanto estou viajando |
+| Pretendo entrar na faculdade ano que vem | Um site que me indique os melhores livros de estudo | Estudar para o Enem |
 
 
 ## Proposta de valor

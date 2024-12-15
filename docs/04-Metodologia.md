@@ -50,5 +50,5 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-2-tiaw-caiu-na-rede-e-livro/tree/main/docs        |
 | Gerenciamento do projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PCO-SI/projects/73       |
 | Projeto de interface                | Figma                              | https://www.figma.com/design/A5oMfq14ZuLkrAkCgpLtBv/Caiu-na-rede%2C-%C3%A9-livro!?node-id=0-1&t=pd91TGKoBbnzUmLU-1      |
-| Hospedagem                          | Vercel                             |   |
+| Hospedagem                          | Vercel                             | https://pco-si-2024-2-tiaw-caiu-na-rede-e-livro.vercel.app/modulos/login/login.html |
  

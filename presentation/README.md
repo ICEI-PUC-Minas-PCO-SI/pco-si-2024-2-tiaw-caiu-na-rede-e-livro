@@ -12,6 +12,15 @@ Slide 02 - Caiu na Rede, é Livro!
 
 ## Vídeo
 
-Vídeo: https://drive.google.com/drive/folders/1EMBbM_7-_ZcAw1nCFZB388CEoeqzg4Mh?usp=sharing
+Vídeo dividido em 3 partes, por conta do tamanho: 
+https://github.com/user-attachments/assets/893a2224-e801-49fb-9e94-8f08f575cb45
+https://github.com/user-attachments/assets/7ad94871-eb7b-4637-9bd4-ca03582ed091
+https://github.com/user-attachments/assets/bb5ac8d7-4e79-4939-b558-1de856b7fd96
+
+Link do vídeo no Drive: https://drive.google.com/file/d/1R95YVLjzTzuHrlJoQ6uAQcAvd6YZjhzG/view?usp=drive_link
+
+
+
+
 
 

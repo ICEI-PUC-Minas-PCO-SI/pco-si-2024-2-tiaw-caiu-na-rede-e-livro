@@ -7,7 +7,10 @@
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-![História de usuário](images/historia-de-usuario.jpg)
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Amo personagens que se parecem comigo  | Quero a descrição dos personagens         | Para me identificar com eles |
+|   oi  | Alterar permissões        ⚠️ EXEMPLO ⚠️         | Permitir que possam administrar contas |
 
 
 ## Proposta de valor

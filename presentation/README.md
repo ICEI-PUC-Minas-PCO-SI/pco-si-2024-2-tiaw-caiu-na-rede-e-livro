@@ -20,7 +20,6 @@ https://github.com/user-attachments/assets/7ad94871-eb7b-4637-9bd4-ca03582ed091
 
 https://github.com/user-attachments/assets/bb5ac8d7-4e79-4939-b558-1de856b7fd96
 
-Link do vídeo no Drive: https://drive.google.com/file/d/1R95YVLjzTzuHrlJoQ6uAQcAvd6YZjhzG/view?usp=drive_link
 
 
 

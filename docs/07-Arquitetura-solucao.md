@@ -370,4 +370,19 @@ Esta seção apresenta os módulos e APIs utilizados na solução.
 
 ## Hospedagem
 
-O site "Caiu na Rede, é Livro!", dedicado a recomendações literárias, foi hospedado usando a Vercel.
+A plataforma foi desenvolvida utilizando HTML, CSS e JavaScript, com uma API fake para simular operações CRUD (Create, Read, Update, Delete), utilizando o json-server.
+
+### Hospedagem do Front-end
+O frontend foi hospedado na Vercel, que oferece deploy rápido para projetos estáticos. Após conectar o repositório do projeto à Vercel, o site foi automaticamente deployado, gerando uma URL pública para acesso.
+
+Link da Hospedagem do Front-end (é necessário possuir uma conta na Vercel para acessar o link): https://vercel.com/renzzo-rochas-projects/pco-si-2024-2-tiaw-caiu-na-rede-e-livro
+
+### API Fake (json-server)
+Para simular a API, foi utilizado o json-server, que cria uma API RESTful fake baseada em um arquivo JSON. Essa API foi hospedada na Vercel da mesma forma que o frontend, permitindo que as operações CRUD sejam realizadas diretamente pelo site.
+
+Link da Hospedagem da API (é necessário possuir uma conta na Vercel para acessar o link): https://vercel.com/renzzo-rochas-projects/api-caiu-na-rede-e-livro
+
+### Lançamento
+Após o deploy do frontend e da API, a plataforma foi lançada e está disponível para os usuários através da URL pública gerada pela Vercel.
+
+Link da Hospedagem da Aplicação Web: https://pco-si-2024-2-tiaw-caiu-na-rede-e-livro.vercel.app/modulos/login/login.html

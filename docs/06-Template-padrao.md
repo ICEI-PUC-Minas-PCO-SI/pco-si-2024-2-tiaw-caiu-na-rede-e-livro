@@ -1,3 +1,6 @@
+# Template padrão da aplicação
+
+<span style="color:red">Pré-requisitos: <a href="03-Product-design.md"> Especificação do projeto</a></span>, <a href="04-Metodologia.md"> Metodologia</a>, <a href="05-Projeto-interface.md"> Projeto de interface</a>
 # Manual da Marca
 ![1](https://github.com/user-attachments/assets/78077dbe-70a7-4b90-ac38-bfa56c924d58)
 <br>

@@ -64,5 +64,8 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 ## Restrições
 
 O projeto está restrito aos itens apresentados na tabela a seguir.
-
-![Restrições do projeto](images/restricoes.jpg)
+|ID| Restrição                                             |
+|--|-------------------------------------------------------|
+|001| O site deve ser responsivo. |
+|002| Os elementos do site devem ser funcionais e organizados.  |
+|003| O trabalho deve ser entregue até dia 08/12/2024. |

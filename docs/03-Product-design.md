@@ -54,8 +54,12 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 | RF-004 | Best-Sellers: O sistema deve retornar os best-sellers do ano vigente de acordo com a Open Library API (https://openlibrary.org/subjects/bestsellers). O sistema deve retornar os livros em cards, que devem possuir o título do livro e o autor deste. O sistema deve possuir um título para esta feature, sendo capaz identificar o nome do projeto Caiu na Rede, é Livro, além do ano que está sendo referenciado. | ALTA |
 
 ### Requisitos não funcionais
-
-![Requisitos não Funcionais](images/requisitosnfuncionais.jpg)
+| ID      | Descrição do Requisito                                                              | Prioridade |
+| ------- | ------------------------------------------------------------------------------------- | ---------- |
+| RNF-001 | Banner: Possuir link para redirecionar para página de saiba mais. Alterar dinamicamente os conteúdos. Ser responsivo e ajustar-se a diferentes tamanhos de tela. | BAIXA     |
+| RNF-002 | Carrossel: Permite com que o usuário clique em uma das imagens e seja direcionado para página: livros em alta e últimos lançamentos. Alterar dinamicamente os conteúdos.        | BAIXA      |
+| RF-003 | Avaliação com estrela: Permitir com que o usuário avalie o livro de 1 a 5 estrelas. | MÉDIA |
+| RF-004 | Histórico de leitura: Permite com que o usuário tenha seu histórico de leituras salvos utilizando um botão para marcar como lido. | MÉDIA |
 
 ## Restrições
 

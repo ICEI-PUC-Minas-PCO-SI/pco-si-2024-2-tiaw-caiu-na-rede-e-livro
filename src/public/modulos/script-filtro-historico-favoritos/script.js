@@ -41,7 +41,7 @@ function exibirLivros(livros) {
         const imagemCapa = livro.cover_i ? `https://covers.openlibrary.org/b/id/${livro.cover_i}-M.jpg` : 'default-cover.jpg';
 
         bookItem.innerHTML = `
-            <a href="http://localhost:3000/modulos/historico/detalhes-livro.html?id=${livro.key}" class="book-link">
+            <a href="/modulos/historico/detalhes-livro.html?id=${livro.key}" class="book-link">
                 <img src="${imagemCapa}" alt="Capa do livro">
                 <div>
                     <h3>${livro.title}</h3>
@@ -100,7 +100,7 @@ function exibirLivrosVisualizados() {
         bookItem.className = 'book-item';
 
         bookItem.innerHTML = `
-        <a href="http://localhost:3000/modulos/historico/detalhes-livro.html?id=${livro.key}" class="book-link">
+        <a href="/modulos/historico/detalhes-livro.html?id=${livro.key}" class="book-link">
         <img src="${livro.cover}" alt="Capa do livro">
         <div>
             <h3>${livro.title}</h3>

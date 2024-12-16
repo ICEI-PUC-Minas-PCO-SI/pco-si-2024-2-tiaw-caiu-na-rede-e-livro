@@ -14,7 +14,7 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | **Caso de teste** | **CT-002 – Visualizados Recentemente** |
 |:---: |:---: |
 | Requisito associado | RF-002 - A aplicação deve listar os últimos livros acessados pelo usuário na sessão atual. Exibir informações básicas do livro: título, autor e capa. Redirecionar para a página do livro ao clicar no item. Atualizar em tempo real à medida que o usuário acessa novos livros. |
-| Registro de evidência | [www.teste.com.br/drive/ct-002](http://www.teste.com.br/drive/ct-002) |
+| Registro de evidência | [ct-002](https://drive.google.com/drive/folders/1CesyTeB1U9F7vYyzulmitD8RfLerklas?usp=drive_link) |
 
 | **Caso de teste** | **CT-003 – Favoritos** |
 |:---: |:---: |

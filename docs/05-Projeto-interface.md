@@ -22,7 +22,8 @@ Tela de comentarios: tela que exibe as avaliações e comentários do usuário a
 
 Tela de filtros por ano de lançamento: tela que possibilita a pesquisa de livros através de um filtro de ano de lançamento. 
 
-![Exemplo de fluxo de telas](images/userflow.png)
+![Captura de Tela (154)](https://github.com/user-attachments/assets/834718d7-d2c0-4c0e-a928-ec280eb36cce)
+
 
 ---
 

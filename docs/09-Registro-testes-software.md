@@ -34,7 +34,7 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | **Caso de teste** | **CT-006 – API para filtragem e exibição de livros** |
 |:---: |:---: |
 | Requisito associado | RF-006 - A aplicação permite com que o usuário filtre os livros disponibilizados na API: https://openlibrary.org, com os critérios: pesquisa por nome, autor, gênero, e número mínimo de páginas. |
-| Registro de evidência | [CT-006](https://drive.google.com/drive/folders/1E6STFhpE3L9kMlMLtPuaFNTV1iv4jE-Z?usp=sharing) |
+| Registro de evidência | [[CT-006](https://drive.google.com/drive/folders/1E6STFhpE3L9kMlMLtPuaFNTV1iv4jE-Z?usp=sharing)](https://drive.google.com/drive/folders/1E6STFhpE3L9kMlMLtPuaFNTV1iv4jE-Z?usp=sharing) |
 
 | **Caso de teste** | **CT-007 – Banner** |
 |:---: |:---: |

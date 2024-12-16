@@ -49,7 +49,7 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | **Caso de teste** | **CT-009 – Avaliação com estrela** |
 |:---: |:---: |
 | Requisito associado | RNF-003 - A aplicação permite com que o usuário avalie o livro de 1 a 5 estrelas. |
-| Registro de evidência | [www.teste.com.br/drive/ct-009](http://www.teste.com.br/drive/ct-009) |
+| Registro de evidência | [ct-009](https://drive.google.com/file/d/1a_ZES-OUuWttM0zOH5WJkLV5PrXpjAIz/view?usp=drive_link) |
 
 > **Links úteis**:
 > - [Screencast: entenda o que é e como gravar vídeos com ele](https://rockcontent.com/br/blog/screencast/)

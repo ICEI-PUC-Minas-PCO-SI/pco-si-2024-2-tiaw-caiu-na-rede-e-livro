@@ -9,7 +9,7 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | **Caso de teste** | **CT-001 – Cadastro de usuários** |
 |:---: |:---: |
 | Requisito associado | RF-001 - A aplicação permite com que o usuário se cadastre para entrar no site. |
-| Registro de evidência | [www.teste.com.br/drive/ct-001](http://www.teste.com.br/drive/ct-001) |
+| Registro de evidência | [ct-001](https://drive.google.com/file/d/1dom6QBkVjvSbmyJJEarCY7PyDKYBS-bp/view?usp=sharing) |
 
 | **Caso de teste** | **CT-002 – Visualizados Recentemente** |
 |:---: |:---: |

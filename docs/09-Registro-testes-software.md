@@ -44,7 +44,7 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | **Caso de teste** | **CT-008 – Carrossel** |
 |:---: |:---: |
 | Requisito associado | RNF-002 - A aplicação permite com que o usuário clique em uma das imagens e seja direcionado para as páginas: livros em alta e últimos lançamentos e alterar dinamicamente os conteúdos. |
-| Registro de evidência | [www.teste.com.br/drive/ct-008](http://www.teste.com.br/drive/ct-008) |
+| Registro de evidência | [ct-008](https://drive.google.com/drive/folders/1jat7FHXwFo2rztRFUJyAgjFFJmAy9M_g?usp=drive_link) |
 
 | **Caso de teste** | **CT-009 – Avaliação com estrela** |
 |:---: |:---: |

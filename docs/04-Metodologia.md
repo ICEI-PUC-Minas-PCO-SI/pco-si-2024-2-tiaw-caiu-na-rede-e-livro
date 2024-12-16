@@ -37,7 +37,7 @@ A equipe utiliza o Scrumban como base para definição do processo de desenvolvi
 
 **Link do Projeto:** https://github.com/orgs/ICEI-PUC-Minas-PCO-SI/projects/73
 
- ![scrumban-board-github](https://github.com/user-attachments/assets/6b0802ac-3d14-4b3c-809f-fa2bbafe16e2)
+![scrumban-board-github](https://github.com/user-attachments/assets/2dfc8255-b899-4e43-8816-70141afe15fa)
 
 ### Ferramentas
 

@@ -19,7 +19,7 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | **Caso de teste** | **CT-003 – Favoritos** |
 |:---: |:---: |
 | Requisito associado | RF-003 - A aplicação deve permitir que o usuário salve o livro em uma lista de favoritos, bem como remover. |
-| Registro de evidência | [www.teste.com.br/drive/ct-003](http://www.teste.com.br/drive/ct-003) |
+| Registro de evidência | [https://www.loom.com/share/2175f9a5c90c451ea7ebc2d963017ce3?sid=82d1a4d7-c1fb-4565-a3ac-e80df8b8375c](https://www.loom.com/share/2175f9a5c90c451ea7ebc2d963017ce3?sid=82d1a4d7-c1fb-4565-a3ac-e80df8b8375c)) |
 
 | **Caso de teste** | **CT-004 – Aba de Comentários** |
 |:---: |:---: |

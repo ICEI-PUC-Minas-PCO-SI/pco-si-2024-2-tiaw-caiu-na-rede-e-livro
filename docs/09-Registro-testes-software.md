@@ -19,22 +19,22 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | **Caso de teste** | **CT-003 – Favoritos** |
 |:---: |:---: |
 | Requisito associado | RF-003 - A aplicação deve permitir que o usuário salve o livro em uma lista de favoritos, bem como remover. |
-| Registro de evidência | [https://www.loom.com/share/2175f9a5c90c451ea7ebc2d963017ce3?sid=82d1a4d7-c1fb-4565-a3ac-e80df8b8375c](https://www.loom.com/share/2175f9a5c90c451ea7ebc2d963017ce3?sid=82d1a4d7-c1fb-4565-a3ac-e80df8b8375c)) |
+| Registro de evidência | [ct-003](https://www.loom.com/share/2175f9a5c90c451ea7ebc2d963017ce3?sid=82d1a4d7-c1fb-4565-a3ac-e80df8b8375c)) |
 
 | **Caso de teste** | **CT-004 – Aba de Comentários** |
 |:---: |:---: |
 | Requisito associado | RF-004 - A aplicação deve permitir com que o usuário escreva e envie um comentário. |
-| Registro de evidência | [www.teste.com.br/drive/ct-004](http://www.teste.com.br/drive/ct-004) |
+| Registro de evidência | [ct-004](http://www.teste.com.br/drive/ct-004) |
 
 | **Caso de teste** | **CT-005 – Best-Sellers** |
 |:---: |:---: |
 | Requisito associado | RF-005 - A aplicação deve retornar os best-sellers do ano vigente de acordo com a Open Library API (https://openlibrary.org/subjects/bestsellers). O sistema deve retornar os livros em cards, que devem possuir o título do livro e o autor deste. |
-| Registro de evidência | [www.teste.com.br/drive/ct-005](http://www.teste.com.br/drive/ct-005) |
+| Registro de evidência | [ct-005](http://www.teste.com.br/drive/ct-005) |
 
 | **Caso de teste** | **CT-006 – API para filtragem e exibição de livros** |
 |:---: |:---: |
 | Requisito associado | RF-006 - A aplicação permite com que o usuário filtre os livros disponibilizados na API: https://openlibrary.org, com os critérios: pesquisa por nome, autor, gênero, e número mínimo de páginas. |
-| Registro de evidência | [www.teste.com.br/drive/ct-006](http://www.teste.com.br/drive/ct-006) |
+| Registro de evidência | [ct-006](http://www.teste.com.br/drive/ct-006) |
 
 | **Caso de teste** | **CT-007 – Banner** |
 |:---: |:---: |
@@ -56,7 +56,11 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 
 ## Avaliação
 
-Discorra sobre os resultados do teste, ressaltando os pontos fortes e fracos identificados na solução. Comente como o grupo pretende abordar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Os resultados dos testes de funcionamento do sistema mostraram que a solução apresenta um bom desempenho geral, com a maioria das funcionalidades implementadas funcionando corretamente. No entanto, alguns problemas foram identificados durante os testes.  
+
+Um dos principais problemas detectados é que os comentários, embora sejam salvos corretamente no JSON Server, não são apresentados ao usuário. Outro ponto observado foi na tela de login, que apresentou inconsistências ao processar credenciais. Em alguns casos, o usuário enfrenta dificuldades para efetuar o acesso, em alguns momentos não é possível logar por motivos não identificados, o que indica a necessidade de revisar a lógica de autenticação e o fluxo de validação de entrada.  
+
+Esses resultados destacam aspectos que necessitam de ajustes para garantir o funcionamento completo da solução e atender às expectativas de uso.
 
 > **Links úteis**:
 > - [Ferramentas de Teste para JavaScript](https://geekflare.com/javascript-unit-testing/)

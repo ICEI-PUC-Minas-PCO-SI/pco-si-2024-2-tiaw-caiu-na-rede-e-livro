@@ -29,7 +29,7 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | **Caso de teste** | **CT-005 – Best-Sellers** |
 |:---: |:---: |
 | Requisito associado | RF-005 - A aplicação deve retornar os best-sellers do ano vigente de acordo com a Open Library API (https://openlibrary.org/subjects/bestsellers). O sistema deve retornar os livros em cards, que devem possuir o título do livro e o autor deste. |
-| Registro de evidência | [ct-005](http://www.teste.com.br/drive/ct-005) |
+| Registro de evidência |([https://www.loom.com/share/943c613a30a64cd0b559f909eccf369f?sid=be801fc3-514d-453d-b5a5-fd47e4027688](https://www.loom.com/share/943c613a30a64cd0b559f909eccf369f?sid=be801fc3-514d-453d-b5a5-fd47e4027688)) |
 
 | **Caso de teste** | **CT-006 – API para filtragem e exibição de livros** |
 |:---: |:---: |

@@ -24,7 +24,7 @@ Para cada caso de teste definido no <a href="08-Plano-testes-software.md"> Plano
 | **Caso de teste** | **CT-004 – Aba de Comentários** |
 |:---: |:---: |
 | Requisito associado | RF-004 - A aplicação deve permitir com que o usuário escreva e envie um comentário. |
-| Registro de evidência | [ct-004](http://www.teste.com.br/drive/ct-004) |
+| Registro de evidência |https://www.loom.com/share/34dedb7822734bcfba6f71684b593ab5?sid=e56305e0-06bc-4d8d-bfee-aa142464aaac|
 
 | **Caso de teste** | **CT-005 – Best-Sellers** |
 |:---: |:---: |
